@@ -32,7 +32,7 @@
     --font-mono:'IBM Plex Mono', monospace;
   }
   *{margin:0;padding:0;box-sizing:border-box;}
-  html{scroll-behavior:smooth;}
+  html{scroll-behavior:smooth;overflow-x:hidden;}
   body{
     background:radial-gradient(ellipse 120% 80% at 15% 0%, #0D1F3C 0%, #0B1120 45%, #060C18 100%);
     min-height:100vh;
@@ -57,32 +57,6 @@
     background-size: 120px 120px, 120px 120px, 24px 24px, 24px 24px;
     mask-image: radial-gradient(ellipse 100% 65% at 50% 0%, black 30%, transparent 85%);
   }
-
-  /* ---------- coordinate status bar (signature element) ---------- */
-  .status-bar{
-    position:fixed;left:0;bottom:0;width:100%;z-index:50;
-    background:rgba(6,12,24,0.88);
-    border-top:1px solid rgba(30,45,69,0.9);
-    backdrop-filter:blur(12px);
-    font-family:var(--font-mono);
-    font-size:11px;
-    color:var(--cream-dim);
-    display:flex;
-    align-items:center;
-    padding:9px 18px;
-    gap:24px;
-    letter-spacing:0.05em;
-    overflow-x:auto;
-    white-space:nowrap;
-    box-shadow:0 -4px 20px rgba(0,0,0,0.3);
-  }
-  .status-bar .dot{
-    width:6px;height:6px;border-radius:50%;background:var(--gold);
-    box-shadow:0 0 7px var(--gold);
-    flex-shrink:0;
-  }
-  .status-bar span.val{color:var(--cream);}
-  .status-bar .sep{color:var(--line);}
 
   /* ---------- nav ---------- */
   nav{
@@ -1102,33 +1076,8 @@
 
 <footer data-i18n="footer">© 2026 Zeyad Ahmed Marei Abd Latif — Built one layer at a time.</footer>
 
-<div class="status-bar" id="statusBar" dir="ltr">
-  <span class="dot"></span>
-  <span><span data-i18n="lbl_lat">LAT</span> <span class="val" id="lat">30.0444° N</span></span>
-  <span class="sep">/</span>
-  <span><span data-i18n="lbl_lon">LON</span> <span class="val" id="lon">31.2357° E</span></span>
-  <span class="sep">/</span>
-  <span><span data-i18n="lbl_scale">SCALE</span> <span class="val">1:25,000</span></span>
-  <span class="sep">/</span>
-  <span><span data-i18n="lbl_datum">DATUM</span> <span class="val">WGS 84</span></span>
-</div>
-
 <script>
   // Live coordinate readout — signature GIS status bar
-  (function(){
-    const latEl = document.getElementById('lat');
-    const lonEl = document.getElementById('lon');
-    const baseLat = 30.0444, baseLon = 31.2357; // Giza, Egypt
-    window.addEventListener('mousemove', (e)=>{
-      const nx = (e.clientX / window.innerWidth) - 0.5;
-      const ny = (e.clientY / window.innerHeight) - 0.5;
-      const lat = (baseLat - ny*0.6).toFixed(4);
-      const lon = (baseLon + nx*0.6).toFixed(4);
-      latEl.textContent = lat + "° N";
-      lonEl.textContent = lon + "° E";
-    }, {passive:true});
-  })();
-
   // ---------------- mobile menu ----------------
   function toggleMenu(){
     document.getElementById('menuBtn').classList.toggle('open');
@@ -1759,22 +1708,6 @@
   "footer": {
     "en": "© 2026 Zeyad Ahmed Marei Abd Latif .",
     "ar": "© 2026 زياد أحمد مرعي عبد اللطيف "
-  },
-  "lbl_lat": {
-    "en": "LAT",
-    "ar": "خط العرض"
-  },
-  "lbl_lon": {
-    "en": "LON",
-    "ar": "خط الطول"
-  },
-  "lbl_scale": {
-    "en": "SCALE",
-    "ar": "المقياس"
-  },
-  "lbl_datum": {
-    "en": "DATUM",
-    "ar": "الإسناد"
   }
 };
 
