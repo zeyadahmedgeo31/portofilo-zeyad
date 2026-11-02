@@ -1,0 +1,2030 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<title>Admin — Zeyad Ahmed Marei — GIS Specialist & Assistant Surveyor</title>
+<meta name="description" content="Zeyad Ahmed Marei — GIS Specialist & Assistant Surveyor based in Giza, Egypt. Surveying, GIS, remote sensing, ArcGIS, Google Earth Engine, and field training portfolio.">
+<meta name="theme-color" content="#071A2B">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Zeyad Ahmed Marei — GIS Specialist & Assistant Surveyor">
+<meta property="og:description" content="Surveying, GIS & Remote Sensing graduate — Cairo University. Maps, dashboards and field data turned into decisions.">
+<meta name="twitter:card" content="summary">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<style>
+  :root{
+    --bg:#071A2B;
+    --bg-deep:#04101C;
+    --surface:#0C2438;
+    --surface-2:#12324A;
+    --line:#1B4560;
+    --cream:#EAF6F7;
+    --cream-dim:#8FB0BC;
+    --gold:#2DD4BF;      /* accent: turquoise (اسم المتغير قديم لكن اللون جديد) */
+    --gold-dim:#0F8F85;
+    --emerald:#34D399;
+    --blue:#4FA3D1;
+    --teal:#22D3EE;
+    --glow:45,212,191;
+    --glass:8,28,46;
+    --nav-bg:rgba(4,16,28,0.88);
+    --body-bg:radial-gradient(ellipse 120% 80% at 15% 0%, #0B3350 0%, #071A2B 45%, #04101C 100%);
+    --font-display:'Poppins', sans-serif;
+    --font-body:'Inter', sans-serif;
+    --font-mono:'IBM Plex Mono', monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;overflow-x:hidden;}
+  body{
+    background:var(--body-bg);
+    min-height:100vh;
+    color:var(--cream);
+    font-family:var(--font-body);
+    overflow-x:hidden;
+    -webkit-font-smoothing:antialiased;
+  }
+  body.font-ar, body.font-ar *{font-family:'Cairo', sans-serif !important;}
+  ::selection{background:var(--gold);color:var(--bg-deep);}
+  a{color:inherit;text-decoration:none;}
+  img{max-width:100%;display:block;}
+
+  /* ---------- blueprint grid backdrop ---------- */
+  .contour-bg{
+    position:fixed;inset:0;z-index:0;pointer-events:none;
+    background-image:
+      linear-gradient(rgba(79,163,209,0.07) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(79,163,209,0.07) 1px, transparent 1px),
+      linear-gradient(rgba(45,212,191,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(45,212,191,0.04) 1px, transparent 1px);
+    background-size: 120px 120px, 120px 120px, 24px 24px, 24px 24px;
+    mask-image: radial-gradient(ellipse 100% 65% at 50% 0%, black 30%, transparent 85%);
+  }
+
+  /* ---------- nav ---------- */
+  nav{
+    position:fixed;top:0;width:100%;z-index:40;
+    display:flex;justify-content:space-between;align-items:center;
+    padding:22px 6vw;
+    font-family:var(--font-mono);
+    font-size:13px;
+    letter-spacing:0.04em;
+    backdrop-filter:blur(10px);
+    background:linear-gradient(to bottom, var(--nav-bg), transparent);
+  }
+  nav .brand{color:var(--gold);font-weight:600;font-family:var(--font-display);font-size:16px;text-shadow:0 0 20px rgba(45,212,191,0.4);letter-spacing:0.02em;}
+  nav .right{display:flex;align-items:center;gap:30px;}
+  nav .links{
+    display:flex;gap:6px;
+    background:rgba(var(--glass),0.55);
+    border:1px solid rgba(27,69,96,0.7);
+    border-radius:50px;
+    padding:5px;
+    backdrop-filter:blur(12px);
+    box-shadow:0 2px 12px rgba(0,0,0,0.25), inset 0 1px 0 rgba(255,255,255,0.04);
+  }
+  nav .links a{
+    color:var(--cream-dim);
+    font-family:var(--font-body);
+    font-size:12px;
+    font-weight:500;
+    letter-spacing:0.02em;
+    padding:7px 16px;
+    border-radius:50px;
+    transition:all .25s cubic-bezier(.22,1,.36,1);
+  }
+  nav .links a:hover{color:var(--cream);background:rgba(255,255,255,0.07);}
+  nav .links a.active{color:var(--gold);background:rgba(45,212,191,0.12);border:1px solid rgba(45,212,191,0.2);}
+  .lang-toggle{
+    font-family:var(--font-mono);
+    font-size:11px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--gold);
+    background:transparent;
+    border:1px solid rgba(45,212,191,0.4);
+    padding:8px 18px;
+    border-radius:50px;
+    cursor:pointer;
+    font-weight:600;
+    transition:all .25s cubic-bezier(.22,1,.36,1);
+    backdrop-filter:blur(6px);
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+  }
+  .lang-toggle:hover{
+    background:rgba(45,212,191,0.12);
+    border-color:rgba(45,212,191,0.7);
+    transform:translateY(-1px);
+    box-shadow:0 4px 14px rgba(45,212,191,0.15);
+  }
+
+  /* keyboard focus visibility */
+  a:focus-visible, button:focus-visible{
+    outline:2px solid var(--gold);
+    outline-offset:3px;
+    border-radius:4px;
+  }
+
+  /* ---------- mobile menu ---------- */
+  .menu-btn{
+    display:none;
+    width:38px;height:38px;
+    border:1px solid var(--line);
+    background:var(--surface);
+    border-radius:8px;
+    align-items:center;justify-content:center;
+    cursor:pointer;
+    flex-shrink:0;
+  }
+  .menu-btn span{
+    display:block;width:16px;height:1.5px;background:var(--cream);
+    position:relative;
+    transition:background .2s;
+  }
+  .menu-btn span::before, .menu-btn span::after{
+    content:'';position:absolute;left:0;width:16px;height:1.5px;background:var(--cream);
+    transition:transform .25s;
+  }
+  .menu-btn span::before{top:-5px;}
+  .menu-btn span::after{top:5px;}
+  .menu-btn.open span{background:transparent;}
+  .menu-btn.open span::before{transform:translateY(5px) rotate(45deg);}
+  .menu-btn.open span::after{transform:translateY(-5px) rotate(-45deg);}
+
+  .mobile-drawer{
+    position:fixed;inset:0;z-index:39;
+    background:var(--bg-deep);
+    display:flex;flex-direction:column;
+    align-items:flex-start;
+    justify-content:center;
+    gap:8px;
+    padding:0 10vw;
+    opacity:0;visibility:hidden;
+    transform:translateY(-12px);
+    transition:opacity .3s, transform .3s, visibility .3s;
+  }
+  .mobile-drawer.open{opacity:1;visibility:visible;transform:translateY(0);}
+  .mobile-drawer a{
+    font-family:var(--font-display);
+    font-size:clamp(28px,7vw,40px);
+    font-weight:600;
+    color:var(--cream-dim);
+    padding:10px 0;
+    border-bottom:1px solid var(--line);
+    width:100%;
+  }
+  .mobile-drawer a:hover{color:var(--gold);}
+
+  @media (max-width:700px){
+    nav .links{display:none;}
+    .menu-btn{display:flex;}
+  }
+
+  /* ---------- scroll reveal ---------- */
+  .reveal{
+    opacity:0;
+    transform:translateY(22px);
+    transition:opacity .7s cubic-bezier(.16,1,.3,1), transform .7s cubic-bezier(.16,1,.3,1);
+  }
+  .reveal.in-view{opacity:1;transform:translateY(0);}
+  @media (prefers-reduced-motion: reduce){
+    .reveal{opacity:1;transform:none;transition:none;}
+  }
+
+  section{
+    position:relative;z-index:1;
+    padding:140px 6vw 90px;
+    max-width:1180px;
+    margin:0 auto;
+  }
+
+  /* ---------- hero ---------- */
+  .hero{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-top:100px;
+    padding-bottom:60px;
+  }
+  .hero-photo{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    border:2px solid var(--gold);
+    box-shadow:0 0 0 6px rgba(45,212,191,0.08), 0 12px 30px rgba(0,0,0,0.45);
+    margin-bottom:28px;
+  }
+  @media (max-width:480px){
+    .hero-photo{width:112px;height:112px;margin-bottom:22px;}
+  }
+  .eyebrow{
+    font-family:var(--font-mono);
+    font-size:12px;
+    color:var(--gold);
+    letter-spacing:0.18em;
+    text-transform:uppercase;
+    display:flex;align-items:center;gap:10px;
+    margin-bottom:22px;
+  }
+  .eyebrow::before{
+    content:'';width:28px;height:1px;background:var(--gold);
+  }
+  h1.name{
+    font-family:var(--font-display);
+    font-weight:600;
+    font-size:clamp(42px, 7.6vw, 92px);
+    line-height:1.02;
+    letter-spacing:-0.01em;
+    color:var(--cream);
+  }
+  h1.name .last{font-weight:500;font-style:italic;}
+  .role{
+    font-family:var(--font-display);
+    font-style:italic;
+    font-size:clamp(18px, 2.3vw, 25px);
+    color:var(--gold);
+    margin-top:18px;
+    font-weight:500;
+  }
+  .hero-desc{
+    margin-top:28px;
+    max-width:540px;
+    font-size:16px;
+    line-height:1.75;
+    color:var(--cream-dim);
+  }
+  .hero::before{
+    content:'';
+    position:absolute;
+    top:-10%;left:-5%;
+    width:60%;height:70%;
+    background:radial-gradient(ellipse at 30% 40%, rgba(79,163,209,0.07) 0%, transparent 65%);
+    pointer-events:none;
+    z-index:0;
+  }
+  .hero > *{position:relative;z-index:1;}
+  .hero-cta{
+    margin-top:42px;
+    display:flex;
+    gap:16px;
+    flex-wrap:wrap;
+  }
+  .btn{
+    font-family:var(--font-body);
+    font-size:14px;
+    font-weight:600;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    padding:15px 34px;
+    border-radius:50px;
+    transition:all .35s cubic-bezier(.22,1,.36,1);
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    position:relative;
+    overflow:hidden;
+  }
+  .btn::after{
+    content:'';
+    position:absolute;
+    inset:0;
+    border-radius:inherit;
+    opacity:0;
+    transition:opacity .3s;
+    background:rgba(255,255,255,0.08);
+  }
+  .btn:hover::after{opacity:1;}
+  .btn.primary{
+    background:linear-gradient(130deg, #2DD4BF 0%, #14B8A6 55%, #0E9F8E 100%);
+    color:#04101C;
+    box-shadow:0 0 0 1px rgba(45,212,191,0.3), 0 6px 28px rgba(45,212,191,0.25), 0 2px 8px rgba(0,0,0,0.3);
+    text-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  }
+  .btn.primary:hover{
+    transform:translateY(-2px);
+    box-shadow:0 0 0 1px rgba(45,212,191,0.5), 0 12px 36px rgba(45,212,191,0.35), 0 4px 12px rgba(0,0,0,0.35);
+  }
+  .btn.ghost{
+    background:rgba(var(--glass),0.6);
+    border:1px solid rgba(79,163,209,0.35);
+    color:var(--cream);
+    backdrop-filter:blur(8px);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,0.06), 0 4px 16px rgba(0,0,0,0.2);
+  }
+  .btn.ghost:hover{
+    border-color:rgba(45,212,191,0.6);
+    color:var(--gold);
+    transform:translateY(-2px);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,0.08), 0 8px 24px rgba(0,0,0,0.25), 0 0 12px rgba(45,212,191,0.1);
+  }
+
+  .scroll-cue{
+    position:absolute;
+    bottom:46px;inset-inline-start:6vw;
+    font-family:var(--font-mono);
+    font-size:11px;
+    color:var(--cream-dim);
+    display:flex;align-items:center;gap:10px;
+    letter-spacing:0.1em;
+  }
+  .scroll-cue .line{width:1px;height:34px;background:linear-gradient(to bottom, var(--gold), transparent);animation:scrollpulse 2s infinite;}
+  @keyframes scrollpulse{0%,100%{opacity:0.3;}50%{opacity:1;}}
+
+  /* ---------- section heading pattern ---------- */
+  .sec-head{
+    display:flex;
+    align-items:baseline;
+    gap:18px;
+    margin-bottom:54px;
+  }
+  .sec-num{
+    font-family:var(--font-mono);
+    font-size:13px;
+    color:var(--gold-dim);
+  }
+  .sec-title{
+    font-family:var(--font-display);
+    font-size:clamp(28px,4vw,38px);
+    font-weight:600;
+    color:var(--cream);
+  }
+  .sec-rule{flex:1;height:1px;background:var(--line);}
+
+  /* ---------- about ---------- */
+  .about-grid{
+    display:grid;
+    grid-template-columns:1.1fr 0.9fr;
+    gap:60px;
+    align-items:start;
+  }
+  @media (max-width:800px){ .about-grid{grid-template-columns:1fr;} }
+  .about-text p{
+    font-size:16px;
+    line-height:1.85;
+    color:var(--cream-dim);
+    margin-bottom:18px;
+  }
+  .about-text strong{color:var(--cream);font-weight:600;}
+  .stat-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:1px;
+    background:var(--line);
+    border:1px solid rgba(27,69,96,0.8);
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 8px 32px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.04);
+  }
+  .stat{
+    background:var(--surface);
+    padding:24px 22px;
+    transition:background .2s;
+  }
+  .stat:hover{background:var(--surface-2);}
+  .stat .num{
+    font-family:var(--font-display);
+    font-size:30px;
+    font-weight:700;
+    color:var(--gold);
+  }
+  .stat .lbl{
+    font-family:var(--font-mono);
+    font-size:11px;
+    color:var(--cream-dim);
+    margin-top:6px;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+  }
+  .field-note{
+    margin-top:24px;
+    font-size:13px;
+    color:var(--cream-dim);
+    border-inline-start:2px solid var(--gold);
+    padding:10px 16px;
+    line-height:1.7;
+  }
+  .field-note b{color:var(--gold);font-family:var(--font-mono);font-size:11px;letter-spacing:0.06em;text-transform:uppercase;display:block;margin-bottom:5px;}
+
+  /* ---------- skills (map layers) ---------- */
+  .layers{
+    display:flex;
+    flex-direction:column;
+    gap:2px;
+  }
+  .layer{
+    display:grid;
+    grid-template-columns:200px 1fr;
+    border:1px solid var(--line);
+    background:var(--surface);
+    border-radius:8px;
+    transition:background .2s, border-color .2s;
+  }
+  .layer:hover{background:var(--surface-2);border-color:var(--gold-dim);}
+  .layer-name{
+    font-family:var(--font-mono);
+    font-size:12px;
+    color:var(--gold);
+    letter-spacing:0.05em;
+    padding:18px 20px;
+    border-inline-end:1px solid var(--line);
+    display:flex;
+    align-items:center;
+    text-transform:uppercase;
+  }
+  .layer-items{
+    padding:18px 20px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items:center;
+  }
+  .chip{
+    font-size:12px;
+    font-weight:500;
+    letter-spacing:0.02em;
+    color:var(--cream-dim);
+    background:rgba(var(--glass),0.7);
+    border:1px solid rgba(27,69,96,0.8);
+    padding:7px 16px;
+    border-radius:50px;
+    transition:all .2s;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,0.04);
+  }
+  .chip:hover{
+    color:var(--cream);
+    border-color:rgba(79,163,209,0.4);
+    background:rgba(var(--glass),0.8);
+  }
+  @media (max-width:700px){
+    .layer{grid-template-columns:1fr;}
+    .layer-name{border-inline-end:none;border-bottom:1px solid var(--line);}
+  }
+
+  /* ---------- project / gis explorer ---------- */
+  .project-card{
+    border:1px solid rgba(27,69,96,0.8);
+    background:linear-gradient(145deg, var(--surface) 0%, var(--bg-deep) 100%);
+    border-radius:16px;
+    overflow:hidden;
+    position:relative;
+    box-shadow:0 16px 48px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.05);
+  }
+  .project-top{
+    padding:46px 46px 30px;
+    border-bottom:1px solid var(--line);
+    position:relative;
+  }
+  .project-tag{
+    font-family:var(--font-mono);
+    font-size:11px;
+    color:var(--blue);
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    margin-bottom:14px;
+  }
+  .project-title{
+    font-family:var(--font-display);
+    font-size:clamp(28px,4vw,42px);
+    font-weight:600;
+    color:var(--cream);
+  }
+  .project-title .ex{color:var(--gold);font-style:italic;}
+  .project-desc{
+    margin-top:18px;
+    max-width:600px;
+    color:var(--cream-dim);
+    line-height:1.8;
+    font-size:15px;
+  }
+  .project-bottom{
+    padding:30px 46px 42px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:14px;
+  }
+  .social-link{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-family:var(--font-body);
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    color:var(--cream-dim);
+    background:rgba(var(--glass),0.7);
+    border:1px solid var(--line);
+    padding:12px 22px;
+    border-radius:50px;
+    transition:all .3s cubic-bezier(.22,1,.36,1);
+    backdrop-filter:blur(6px);
+    box-shadow:0 2px 8px rgba(0,0,0,0.2), inset 0 1px 0 rgba(255,255,255,0.04);
+  }
+  .social-link svg{width:15px;height:15px;flex-shrink:0;}
+  .social-link:hover{
+    border-color:rgba(45,212,191,0.5);
+    color:var(--gold);
+    transform:translateY(-3px);
+    box-shadow:0 8px 24px rgba(0,0,0,0.3), 0 0 14px rgba(45,212,191,0.12), inset 0 1px 0 rgba(255,255,255,0.07);
+    background:rgba(var(--glass),0.8);
+  }
+  .compass{
+    position:absolute;
+    inset-inline-end:46px;top:46px;
+    width:58px;height:58px;
+    opacity:0.55;
+  }
+  @media (max-width:700px){
+    .project-top, .project-bottom{padding-inline-start:24px;padding-inline-end:24px;}
+    .compass{display:none;}
+  }
+
+  /* ---------- certificates ---------- */
+  .cert-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));
+    gap:16px;
+  }
+  .cert-card{
+    border:1px solid rgba(27,69,96,0.8);
+    background:linear-gradient(145deg, var(--surface) 0%, var(--bg-deep) 100%);
+    border-radius:14px;
+    overflow:hidden;
+    cursor:pointer;
+    transition:all .3s cubic-bezier(.22,1,.36,1);
+    box-shadow:0 4px 16px rgba(0,0,0,0.25), inset 0 1px 0 rgba(255,255,255,0.04);
+  }
+  .cert-card:hover{
+    border-color:rgba(45,212,191,0.4);
+    transform:translateY(-4px);
+    box-shadow:0 16px 40px rgba(0,0,0,0.4), 0 0 16px rgba(45,212,191,0.08);
+  }
+  .cert-title{font-family:var(--font-display);font-size:15px;font-weight:600;color:var(--cream);line-height:1.35;}
+  .cert-meta{font-family:var(--font-mono);font-size:11px;color:var(--cream-dim);letter-spacing:0.04em;margin-top:5px;text-transform:uppercase;}
+
+  /* ---------- education timeline ---------- */
+  .timeline{
+    position:relative;
+    padding-inline-start:36px;
+    border-inline-start:1px solid var(--line);
+  }
+  .tl-item{
+    position:relative;
+    padding-bottom:38px;
+  }
+  .tl-item:last-child{padding-bottom:0;}
+  .tl-item::before{
+    content:'';
+    position:absolute;
+    inset-inline-start:-41px;top:4px;
+    width:9px;height:9px;
+    border-radius:50%;
+    background:var(--bg);
+    border:2px solid var(--gold);
+  }
+  .tl-date{
+    font-family:var(--font-mono);
+    font-size:11.5px;
+    color:var(--gold-dim);
+    letter-spacing:0.05em;
+    margin-bottom:6px;
+  }
+  .tl-title{
+    font-family:var(--font-display);
+    font-size:19px;
+    font-weight:600;
+    color:var(--cream);
+    margin-bottom:6px;
+  }
+  .tl-desc{
+    font-size:14px;
+    color:var(--cream-dim);
+    line-height:1.7;
+    max-width:640px;
+  }
+
+  /* ---------- contact ---------- */
+  .contact-wrap{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+  }
+  @media (max-width:800px){ .contact-wrap{grid-template-columns:1fr;} }
+  .contact-big{
+    font-family:var(--font-display);
+    font-size:clamp(28px,4.6vw,48px);
+    font-weight:600;
+    line-height:1.2;
+    color:var(--cream);
+    overflow-wrap:anywhere;
+  }
+  .contact-big a{
+    color:var(--gold);
+    font-style:italic;
+    border-bottom:2px solid var(--gold-dim);
+    transition:color .2s, border-color .2s;
+    overflow-wrap:anywhere;
+  }
+  .contact-big a:hover{color:var(--cream);border-color:var(--cream);}
+  .contact-list{
+    display:flex;
+    flex-direction:column;
+    gap:0;
+    border-top:1px solid var(--line);
+  }
+  .contact-row{
+    display:flex;
+    justify-content:space-between;
+    gap:16px;
+    padding:18px 0;
+    border-bottom:1px solid var(--line);
+    font-size:13.5px;
+  }
+  .contact-row .k{color:var(--cream-dim);font-family:var(--font-mono);font-size:12px;letter-spacing:0.04em;flex-shrink:0;}
+  .contact-row .v{color:var(--cream);text-align:end;min-width:0;overflow-wrap:anywhere;}
+  .contact-row a:hover{color:var(--gold);}
+
+  @media (max-width:480px){
+    .contact-big{font-size:22px;}
+    .contact-row{
+      flex-direction:column;
+      align-items:flex-start;
+      gap:4px;
+      padding:14px 0;
+    }
+    .contact-row .v{text-align:start;}
+  }
+
+  .cert-card{
+    border:1px solid rgba(27,69,96,0.8);
+    background:linear-gradient(145deg, var(--surface) 0%, var(--bg-deep) 100%);
+    border-radius:14px;
+    overflow:hidden;
+    cursor:pointer;
+    transition:all .3s cubic-bezier(.22,1,.36,1);
+    box-shadow:0 4px 16px rgba(0,0,0,0.25), inset 0 1px 0 rgba(255,255,255,0.04);
+    display:flex;
+    flex-direction:column;
+    position:relative;
+  }
+  .cert-card::before{
+    content:'';
+    position:absolute;top:0;left:0;right:0;height:3px;
+    background:linear-gradient(90deg, var(--cert-color), transparent);
+    opacity:0.7;
+    transition:opacity .3s;
+  }
+  .cert-card:hover{
+    border-color:rgba(var(--cert-rgb),0.4);
+    transform:translateY(-4px);
+    box-shadow:0 16px 40px rgba(0,0,0,0.4), 0 0 20px rgba(var(--cert-rgb),0.1);
+  }
+  .cert-card:hover::before{opacity:1;}
+  .cert-preview{
+    padding:28px 24px 16px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    border-bottom:1px solid rgba(27,69,96,0.6);
+  }
+  .cert-icon-wrap{
+    width:56px;height:56px;
+    border-radius:10px;
+    background:rgba(var(--cert-rgb),0.08);
+    display:flex;align-items:center;justify-content:center;
+    border:1px solid rgba(var(--cert-rgb),0.2);
+  }
+  .cert-svg{width:32px;height:32px;}
+  .cert-info{
+    padding:16px 24px 20px;
+    flex:1;
+  }
+  .cert-arrow{
+    position:absolute;bottom:18px;right:18px;
+    color:rgba(var(--cert-rgb),0.5);
+    transition:all .2s;
+  }
+  .cert-arrow svg{width:16px;height:16px;}
+  .cert-card:hover .cert-arrow{color:var(--cert-color);transform:translateX(3px);}
+  .cert-date{
+    font-family:var(--font-mono);
+    font-size:10px;
+    color:var(--cert-color);
+    letter-spacing:0.06em;
+    margin-top:6px;
+    opacity:0.8;
+  }
+
+  /* ---------- cert modal ---------- */
+  .cert-modal{
+    position:fixed;inset:0;z-index:60;
+    background:rgba(var(--glass),0.88);
+    backdrop-filter:blur(10px);
+    display:flex;align-items:center;justify-content:center;
+    padding:20px;
+    opacity:0;visibility:hidden;
+    transition:opacity .3s, visibility .3s;
+  }
+  .cert-modal.open{opacity:1;visibility:visible;}
+  .cm-panel{
+    background:var(--surface);
+    border:1px solid rgba(27,69,96,0.9);
+    border-radius:16px;
+    width:100%;
+    max-width:860px;
+    max-height:90vh;
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+    box-shadow:0 32px 80px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.05);
+    transform:scale(0.96);
+    transition:transform .3s cubic-bezier(.22,1,.36,1);
+  }
+  .cert-modal.open .cm-panel{transform:scale(1);}
+  .cm-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    padding:22px 28px;
+    border-bottom:1px solid rgba(27,69,96,0.8);
+    flex-shrink:0;
+  }
+  .cm-title{
+    font-family:var(--font-display);
+    font-size:18px;
+    font-weight:600;
+    color:var(--cream);
+    line-height:1.3;
+    max-width:600px;
+  }
+  .cm-sub{
+    font-family:var(--font-mono);
+    font-size:11px;
+    color:var(--cream-dim);
+    letter-spacing:0.04em;
+    margin-top:6px;
+    display:flex;gap:8px;align-items:center;
+  }
+  .cm-dot{color:var(--line);}
+  .cm-close{
+    width:36px;height:36px;border-radius:50%;
+    border:1px solid rgba(27,69,96,0.8);
+    background:var(--surface-2);
+    color:var(--cream-dim);
+    font-size:18px;cursor:pointer;
+    display:flex;align-items:center;justify-content:center;
+    flex-shrink:0;
+    transition:all .2s;
+    margin-left:16px;
+  }
+  .cm-close:hover{border-color:var(--gold);color:var(--gold);}
+  .cm-body{
+    flex:1;
+    overflow:hidden;
+    background:var(--bg-deep);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .cm-body img{
+    max-width:100%;
+    max-height:74vh;
+    object-fit:contain;
+    display:block;
+  }
+
+  footer{
+    text-align:center;
+    padding:30px 6vw 70px;
+    font-family:var(--font-mono);
+    font-size:11px;
+    color:var(--cream-dim);
+    letter-spacing:0.05em;
+  }
+  /* ---------- polish ---------- */
+  h1.name .last{display:inline-block;background:linear-gradient(90deg,var(--gold),var(--emerald) 60%,var(--teal));-webkit-background-clip:text;background-clip:text;color:transparent;}
+  .cert-card,.btn{transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;}
+  .cert-card:hover{transform:translateY(-4px);border-color:rgba(var(--glow),.55);box-shadow:0 14px 40px rgba(var(--glow),.14);}
+  .theme-toggle{background:transparent;border:1px solid var(--line);color:var(--cream);width:34px;height:34px;border-radius:50%;cursor:pointer;font-size:15px;line-height:1;display:inline-flex;align-items:center;justify-content:center;transition:border-color .2s, color .2s;}
+  .theme-toggle:hover{border-color:var(--gold);color:var(--gold);}
+
+  /* ================= GEOSPATIAL REDESIGN ================= */
+  .geo-bg{position:fixed;inset:-40px;z-index:0;pointer-events:none;overflow:hidden;}
+  .geo-bg .lyr{position:absolute;inset:0;will-change:transform;transition:transform .35s ease-out;}
+  .geo-glow{background:
+    radial-gradient(520px 420px at 82% 12%, rgba(var(--glow),.16), transparent 70%),
+    radial-gradient(600px 500px at 8% 78%, rgba(52,211,153,.10), transparent 70%),
+    radial-gradient(480px 380px at 55% 105%, rgba(34,211,238,.10), transparent 70%);}
+  .geo-bg svg{width:100%;height:100%;display:block;}
+  .geo-contour path{fill:none;stroke:var(--gold);stroke-width:1;opacity:.13;}
+  .geo-contour path.idx{opacity:.24;stroke-width:1.3;}
+  .geo-lbl{font:9px var(--font-mono);fill:var(--cream-dim);opacity:.55;letter-spacing:.08em;}
+  .geo-pt{fill:var(--gold);animation:geoPulse 4s ease-in-out infinite;}
+  .geo-pt.p2{animation-delay:1.3s;fill:var(--emerald)}.geo-pt.p3{animation-delay:2.4s;fill:var(--teal)}
+  .geo-ring{fill:none;stroke:var(--gold);opacity:.3;}
+  @keyframes geoPulse{0%,100%{opacity:.25}50%{opacity:.95}}
+  .contour-bg{opacity:.8;}
+  /* nav */
+  nav{transition:padding .3s, background .3s, box-shadow .3s;}
+  nav.scrolled{padding-top:12px;padding-bottom:12px;background:var(--nav-bg);box-shadow:0 1px 0 rgba(var(--glow),.18), 0 10px 30px rgba(0,0,0,.18);}
+  /* hero */
+  .hero{position:relative;}
+  .hero-radar{position:absolute;right:6vw;top:50%;width:min(36vw,420px);transform:translateY(-46%);color:var(--gold);pointer-events:none;opacity:.8;}
+  .hero-radar .sweep{transform-origin:200px 200px;animation:sweep 9s linear infinite;}
+  .hero-radar .blip{animation:geoPulse 3s ease-in-out infinite;}
+  .hero-radar .b2{animation-delay:1s}.hero-radar .b3{animation-delay:2s}
+  @keyframes sweep{to{transform:rotate(360deg)}}
+  .hero>*:not(.hero-radar){position:relative;z-index:1;}
+  .photo-frame{position:relative;width:176px;height:176px;margin-bottom:30px;display:grid;place-items:center;}
+  .photo-frame .hero-photo{width:150px;height:150px;margin:0;}
+  .pf-ring{position:absolute;inset:0;border-radius:50%;border:1px dashed rgba(var(--glow),.55);animation:sweep 40s linear infinite;}
+  .pf-ring.r2{inset:-10px;border-style:dotted;opacity:.45;animation-direction:reverse;animation-duration:60s;}
+  .pf-c{position:absolute;width:18px;height:18px;border:2px solid var(--gold);opacity:.8;}
+  .pf-c.tl{top:-14px;left:-14px;border-right:0;border-bottom:0;}
+  .pf-c.br{bottom:-14px;right:-14px;border-left:0;border-top:0;}
+  /* glass cards */
+  .stat,.layer,.project-card,.cert-card,.contact-row,.field-note,.tl-item{
+    background:rgba(var(--glass),.55);
+    -webkit-backdrop-filter:blur(14px) saturate(140%);backdrop-filter:blur(14px) saturate(140%);
+    border:1px solid rgba(var(--glow),.18);border-radius:16px;
+    transition:transform .3s ease, border-color .3s ease, box-shadow .3s ease, background .3s ease;}
+  .stat:hover,.layer:hover,.project-card:hover,.contact-row:hover{transform:translateY(-3px);border-color:rgba(var(--glow),.5);box-shadow:0 14px 36px rgba(var(--glow),.12);}
+  .chip{border-radius:999px;border:1px solid rgba(var(--glow),.25);background:rgba(var(--glow),.07);}
+  .cert-card{overflow:hidden;}
+  .cert-card .cert-preview{background:linear-gradient(135deg,rgba(var(--glow),.10),transparent);}
+  .sec-title{letter-spacing:-.01em;}
+  .sec-rule{background:linear-gradient(90deg,rgba(var(--glow),.6),transparent);height:1px;}
+  /* section reveal */
+  .reveal{opacity:0;transform:translateY(26px);filter:blur(4px);transition:opacity .8s ease, transform .8s ease, filter .8s ease;}
+  .reveal.in-view{opacity:1;transform:none;filter:none;}
+  /* footer */
+  footer{position:relative;margin-top:40px;padding:44px 6vw 60px;border-top:1px solid rgba(var(--glow),.2);
+    background:linear-gradient(to bottom, transparent, rgba(var(--glass),.6));}
+  footer::before{content:"";position:absolute;left:50%;top:-1px;width:min(320px,60%);height:2px;transform:translateX(-50%);
+    background:linear-gradient(90deg,transparent,var(--gold),var(--emerald),transparent);}
+  @media (max-width:900px){.hero-radar{display:none}.photo-frame{width:132px;height:132px}.photo-frame .hero-photo{width:112px;height:112px}}
+  @media (prefers-reduced-motion:reduce){.geo-pt,.hero-radar .sweep,.hero-radar .blip,.pf-ring{animation:none}.reveal{transition:none}.geo-bg .lyr{transition:none}}
+  .stat-grid{gap:14px;background:none;border:0;box-shadow:none;overflow:visible;}
+  .scroll-cue{display:none;}
+  @media (min-height:900px){.scroll-cue{display:flex;}}
+  .contact-list{border:0;display:grid;gap:10px;}
+  .contact-row{padding:14px 20px;margin:0;align-items:center;min-height:0;}
+  /* ---------- timeline cards: inner spacing ---------- */
+  .tl-item{padding:20px 24px;margin-bottom:18px;min-width:0;overflow-wrap:anywhere;}
+  .tl-item:last-child{margin-bottom:0;padding-bottom:20px;}
+  .tl-item::before{top:26px;}
+  .tl-date{margin-bottom:8px;}
+  .tl-title{line-height:1.5;}
+  .tl-desc{line-height:1.8;}
+  /* ---------- Arabic typography: no letter-spacing, no italic, no clipped glyphs ---------- */
+  body.font-ar, body.font-ar *{letter-spacing:0 !important;font-style:normal !important;word-spacing:normal;}
+  body.font-ar h1.name{line-height:1.15;}
+  body.font-ar h1.name .last{display:inline-block;line-height:1.3;padding:.02em .08em .2em;margin-bottom:-.12em;}
+  body.font-ar .role{line-height:1.6;}
+  :root[dir="rtl"] .hero-radar{right:auto;left:6vw;}
+  body.font-ar .hero-desc,body.font-ar .tl-desc,body.font-ar .about-text p{line-height:1.95;}
+  body.font-ar .eyebrow{line-height:1.6;}
+  /* ---------- light theme ---------- */
+  :root[data-theme="light"]{
+    --bg:#F4F9FA; --bg-deep:#E6F0F2; --surface:#FFFFFF; --surface-2:#EDF5F7; --line:#D3E3E7;
+    --cream:#0A2433; --cream-dim:#51707D;
+    --gold:#0B7A85; --gold-dim:#0B7A85; --emerald:#0E9F6E; --blue:#1F6FA3; --teal:#0891B2;
+    --glow:11,122,133;
+    --glass:255,255,255;
+    --nav-bg:rgba(244,249,250,0.9);
+    --body-bg:radial-gradient(ellipse 120% 80% at 15% 0%, #DCF1F3 0%, #F4F9FA 50%, #E6F0F2 100%);
+  }
+  :root[data-theme="light"] .btn.primary{background:linear-gradient(130deg,#0B7A85,#0E9F8E);color:#fff;}
+  :root[data-theme="light"] .btn::after{background:rgba(0,0,0,0.06);}
+  :root[data-theme="light"] .cert-card,
+  :root[data-theme="light"] .cert-card:hover{box-shadow:0 8px 28px rgba(10,36,51,0.08);}
+
+.brand-logo{display:flex;align-items:center;gap:10px}
+.brand-logo img{width:46px;height:46px;border-radius:50%;box-shadow:0 0 18px rgba(45,212,191,.35);border:1px solid rgba(45,212,191,.35)}
+@media(max-width:480px){.brand-logo span{display:none}}
+.proj-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+.proj-card{border:1px solid rgba(27,69,96,.8);background:linear-gradient(145deg,var(--surface),var(--bg-deep));border-radius:14px;overflow:hidden;cursor:pointer;position:relative;transition:transform .3s,border-color .3s,box-shadow .3s}
+.proj-card:hover{transform:translateY(-4px);border-color:rgba(var(--glow),.55);box-shadow:0 14px 40px rgba(var(--glow),.14)}
+.proj-cover{aspect-ratio:16/10;background:var(--bg-deep)}.proj-cover img{width:100%;height:100%;object-fit:cover}
+.proj-info{padding:18px 20px 20px}.proj-name{font-family:var(--font-display);font-size:17px;font-weight:600;color:var(--cream);margin-bottom:8px}
+.proj-desc{font-size:13.5px;line-height:1.6;color:var(--cream-dim);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.proj-link{display:inline-block;margin-top:12px;font-family:var(--font-mono);font-size:12px;color:var(--gold)}
+</style>
+</head>
+<body>
+
+<div class="contour-bg"></div>
+
+<nav>
+  <a href="#top" class="brand brand-logo"><img src="data:image/webp;base64,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" alt="ZAM — Zeyad Ahmed Marei"><span>Z.A.M</span></a>
+  <div class="right">
+    <div class="links">
+      <a href="#about" data-i18n="nav_about">About</a>
+      <a href="#skills" data-i18n="nav_skills">Skills</a>
+      <a href="#explorer" data-i18n="nav_explorer">GIS Explorer</a>
+      <a href="#projects" data-i18n="nav_projects">Projects</a>
+      <a href="#certificates" data-i18n="nav_certificates">Certificates</a>
+      <a href="#education" data-i18n="nav_education">Education</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+    </div>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" onclick="toggleTheme()">☾</button>
+    <button class="lang-toggle" id="langToggle" onclick="toggleLang()">العربية</button>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false" onclick="toggleMenu()"><span></span></button>
+  </div>
+</nav>
+
+<div class="mobile-drawer" id="mobileDrawer">
+  <a href="#about" data-i18n="nav_about" onclick="toggleMenu()">About</a>
+  <a href="#skills" data-i18n="nav_skills" onclick="toggleMenu()">Skills</a>
+  <a href="#explorer" data-i18n="nav_explorer" onclick="toggleMenu()">GIS Explorer</a>
+  <a href="#projects" data-i18n="nav_projects" onclick="toggleMenu()">Projects</a>
+  <a href="#certificates" data-i18n="nav_certificates" onclick="toggleMenu()">Certificates</a>
+  <a href="#education" data-i18n="nav_education" onclick="toggleMenu()">Education</a>
+  <a href="#contact" data-i18n="nav_contact" onclick="toggleMenu()">Contact</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="top">
+<svg class="hero-radar" viewBox="0 0 400 400" aria-hidden="true">
+  <g fill="none" stroke="currentColor" stroke-width="1">
+    <circle cx="200" cy="200" r="190" opacity=".35"/><circle cx="200" cy="200" r="140" opacity=".3"/>
+    <circle cx="200" cy="200" r="90" opacity=".28"/><circle cx="200" cy="200" r="40" opacity=".35"/>
+    <path d="M200 6v388M6 200h388" opacity=".25"/><path d="M63 63l274 274M337 63L63 337" opacity=".12"/>
+    <path d="M200 200L200 10A190 190 0 0 1 335 65Z" class="sweep" fill="currentColor" stroke="none" opacity=".12"/>
+  </g>
+  <g fill="currentColor"><circle cx="260" cy="120" r="3.5" class="blip"/><circle cx="120" cy="250" r="3" class="blip b2"/><circle cx="290" cy="280" r="2.5" class="blip b3"/></g>
+</svg>
+  <div class="photo-frame"><i class="pf-ring"></i><i class="pf-ring r2"></i><i class="pf-c tl"></i><i class="pf-c br"></i><img class="hero-photo" src="https://fcbdgyzjvedriziriwnh.supabase.co/storage/v1/object/public/portfolio/hero/zeyad-ahmed.jpg" alt="Zeyad Ahmed Marei"></div>
+  <div class="eyebrow" data-i18n="eyebrow">Surveying · GIS · Remote Sensing</div>
+  <h1 class="name" data-i18n="hero_name">ZEYAD AHMED<br><span class="last">MAREI ABD LATIF</span></h1>
+  <div class="role" data-i18n="hero_role">GIS Specialist &amp; Assistant Surveyor</div>
+  <p class="hero-desc" data-i18n="hero_desc">
+    Graduate of Surveying, Geographic Information Systems &amp; Remote Sensing at Cairo University.
+    I turn raw spatial data — satellite imagery, field surveys, drone passes — into maps and analysis
+    that people can actually act on.
+  </p>
+  <div class="hero-cta">
+    <a href="#explorer" class="btn primary" data-i18n="btn_primary">View GIS Explorer →</a>
+    <a href="#contact" class="btn ghost" data-i18n="btn_ghost">Get in touch</a>
+    <a href="javascript:void(0)" class="btn ghost" onclick="viewCV()" data-i18n="btn_view_cv">View CV</a>
+    <a href="javascript:void(0)" class="btn ghost" onclick="downloadCV()" data-i18n="btn_download_cv">Download CV</a>
+  </div>
+  <div class="scroll-cue"><div class="line"></div><span data-i18n="scroll_cue">SCROLL</span></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="sec-head">
+    <span class="sec-num">01</span>
+    <span class="sec-title" data-i18n="sec_about_title">About</span>
+    <span class="sec-rule"></span>
+  </div>
+  <div class="about-grid">
+    <div class="about-text">
+      <p data-i18n="about_p1">
+        I'm <strong>Zeyad</strong>, a GIS Specialist and Assistant Surveyor based in Giza, Egypt.
+        My background is in the Surveying Program (GIS &amp; Remote Sensing track) at the
+        <strong>Faculty of Arts, Cairo University</strong>, where I graduated with a cumulative
+        GPA of <strong>3.03 (Very Good)</strong>.
+      </p>
+      <p data-i18n="about_p2">
+        My work sits at the intersection of fieldwork and software: I've trained on
+        <strong>terrestrial and aerial surveying</strong>, run land-surface-temperature analysis
+        with Google Earth Engine, and built out dashboards and story maps on ArcGIS Online.
+        I'm currently looking for a role where I can keep developing those skills on real,
+        challenging spatial problems.
+      </p>
+      <div class="field-note" data-i18n="field_note">
+        <b>Field note</b>
+        Trained through the National Authority for Remote Sensing &amp; Space
+        Sciences, GIS Bloggers, and a UC Davis online specialization in GIS.
+      </div>
+    </div>
+    <div class="stat-grid">
+      <div class="stat"><div class="num">3.03</div><div class="lbl" data-i18n="stat1">Cumulative GPA</div></div>
+      <div class="stat"><div class="num">6+</div><div class="lbl" data-i18n="stat2">Field Trainings</div></div>
+      <div class="stat"><div class="num">3</div><div class="lbl" data-i18n="stat3">GIS Diplomas (UC Davis)</div></div>
+      <div class="stat"><div class="num" data-i18n="stat4_num">Giza</div><div class="lbl" data-i18n="stat4">Based In, Egypt</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="sec-head">
+    <span class="sec-num">02</span>
+    <span class="sec-title" data-i18n="sec_skills_title">Technical Layers</span>
+    <span class="sec-rule"></span>
+  </div>
+  <div class="layers">
+    <div class="layer">
+      <div class="layer-name" data-i18n="layer1">GIS Desktop</div>
+      <div class="layer-items">
+        <span class="chip">ArcGIS Pro</span>
+        <span class="chip">ArcMap</span>
+        <span class="chip">ArcCatalog</span>
+        <span class="chip">ArcToolbox</span>
+      </div>
+    </div>
+    <div class="layer">
+      <div class="layer-name" data-i18n="layer2">GIS Online</div>
+      <div class="layer-items">
+        <span class="chip">Dashboards</span>
+        <span class="chip">Survey123</span>
+        <span class="chip">StoryMaps</span>
+        <span class="chip">Map Viewer (Beta &amp; Classic)</span>
+        <span class="chip">Web App Builder</span>
+      </div>
+    </div>
+    <div class="layer">
+      <div class="layer-name" data-i18n="layer3">Remote Sensing</div>
+      <div class="layer-items">
+        <span class="chip">ENVI</span>
+        <span class="chip">Google Earth Engine</span>
+        <span class="chip">Google Earth Pro</span>
+      </div>
+    </div>
+    <div class="layer">
+      <div class="layer-name" data-i18n="layer4">Field Survey</div>
+      <div class="layer-items">
+        <span class="chip">Total Station</span>
+        <span class="chip">Theodolite</span>
+        <span class="chip">Level</span>
+      </div>
+    </div>
+    <div class="layer">
+      <div class="layer-name" data-i18n="layer5">Office</div>
+      <div class="layer-items">
+        <span class="chip">Word</span>
+        <span class="chip">Excel</span>
+        <span class="chip">PowerPoint</span>
+        <span class="chip">Access</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GIS EXPLORER PROJECT -->
+<section id="explorer">
+  <div class="sec-head">
+    <span class="sec-num">03</span>
+    <span class="sec-title" data-i18n="sec_explorer_title">Featured Project</span>
+    <span class="sec-rule"></span>
+  </div>
+  <div class="project-card">
+    <div class="project-top">
+      <svg class="compass" viewBox="0 0 60 60" fill="none">
+        <circle cx="30" cy="30" r="28" stroke="#2DD4BF" stroke-width="1"/>
+        <circle cx="30" cy="30" r="2" fill="#2DD4BF"/>
+        <path d="M30 4 L34 30 L30 56 L26 30 Z" fill="#2DD4BF" opacity="0.7"/>
+        <text x="30" y="14" fill="#F2EEE6" font-size="6" font-family="IBM Plex Mono" text-anchor="middle">N</text>
+      </svg>
+      <div class="project-tag" data-i18n="project_tag">Founder · Content &amp; Community Lead</div>
+      <div class="project-title">GIS <span class="ex">Explorer</span></div>
+      <p class="project-desc" data-i18n="project_desc">
+        GIS Explorer is a page I founded to make geographic information systems and remote
+        sensing more approachable — sharing tutorials, software walkthroughs, satellite imagery
+        breakdowns, and field-survey tips across Facebook, Instagram, YouTube, and TikTok.
+        As founder, I lead the content direction and manage the community across every channel.
+      </p>
+    </div>
+    <div class="project-bottom">
+      <a class="social-link" href="https://www.facebook.com/share/1HGnvH3kRT/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 9h3V6h-3c-1.7 0-3 1.3-3 3v2H8v3h3v6h3v-6h3l1-3h-4v-2c0-.6.4-1 1-1z"/></svg>
+        <span data-i18n="soc_fb">Facebook</span>
+      </a>
+      <a class="social-link" href="https://www.instagram.com/gis_explorer25" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+        <span data-i18n="soc_ig">Instagram</span>
+      </a>
+      <a class="social-link" href="https://www.youtube.com/@gis_explorer" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="5.5" width="19" height="13" rx="3"/><path d="M10.5 9.5l5 2.5-5 2.5z" fill="currentColor" stroke="none"/></svg>
+        <span data-i18n="soc_yt">YouTube</span>
+      </a>
+      <a class="social-link" href="https://www.tiktok.com/@gis_explorer25" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 4v9.5a3.5 3.5 0 1 1-3.5-3.5c.3 0 .6 0 .9.08"/><path d="M14 4c.3 2 1.8 3.5 4 3.8"/></svg>
+        <span data-i18n="soc_tt">TikTok</span>
+      </a>
+      <a class="social-link" href="mailto:gisexplorer25@gmail.com">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 6l9 7 9-7"/></svg>
+        <span>gisexplorer25@gmail.com</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" style="display:none">
+  <div class="sec-head"><span class="sec-num">04</span><span class="sec-title" data-i18n="sec_projects_title">Projects</span><span class="sec-rule"></span></div>
+  <div class="proj-grid" id="projGrid"></div>
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certificates">
+  <div class="sec-head">
+    <span class="sec-num">05</span>
+    <span class="sec-title" data-i18n="sec_cert_title">Certificates &amp; Credentials</span>
+    <span class="sec-rule"></span>
+  </div>
+  <div class="cert-grid" id="certGrid"></div>
+</section>
+
+<!-- CERT MODAL -->
+<div class="cert-modal" id="certModal" onclick="closeCertModal(event)">
+  <div class="cm-panel">
+    <div class="cm-header">
+      <div class="cm-meta">
+        <div class="cm-title" id="certModalTitle"></div>
+        <div class="cm-sub"><span id="certModalIssuer"></span><span class="cm-dot">·</span><span id="certModalDate"></span></div>
+      </div>
+      <button class="cm-close" onclick="closeCertModal(event)">&times;</button>
+    </div>
+    <div class="cm-body">
+      <img id="certPdfImg" src="" alt="" style="width:100%;display:block;max-height:74vh;object-fit:contain;background:var(--bg-deep);">
+    </div>
+  </div>
+</div>
+
+<!-- EDUCATION / TRAINING -->
+<section id="education">
+  <div class="sec-head">
+    <span class="sec-num">06</span>
+    <span class="sec-title" data-i18n="sec_education_title">Education &amp; Field Training</span>
+    <span class="sec-rule"></span>
+  </div>
+  <div class="timeline">
+
+    <div class="tl-item">
+      <div class="tl-date" data-i18n="tl1_date">2026 — GRADUATED</div>
+      <div class="tl-title" data-i18n="tl1_title">Licence, Surveying — GIS &amp; Remote Sensing</div>
+      <div class="tl-desc" data-i18n="tl1_desc">Faculty of Arts, Cairo University. Cumulative GPA: 3.03 (Very Good).</div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-date" data-i18n="tl2_date">JAN – FEB 2024</div>
+      <div class="tl-title" data-i18n="tl2_title">Terrestrial &amp; Aerial Surveying Training</div>
+      <div class="tl-desc" data-i18n="tl2_desc">Two courses with the National Authority for Remote Sensing &amp; Space Sciences: terrestrial surveying (28 Jan – 1 Feb) and aerial surveying (4–8 Feb).</div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-date" data-i18n="tl3_date">FEB 2024</div>
+      <div class="tl-title" data-i18n="tl3_title">Construction Engineering &amp; Management</div>
+      <div class="tl-desc" data-i18n="tl3_desc">Summer college training program with Arab Contractors Company (1–23 Feb).</div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-date" data-i18n="tl4_date">JUL 2024</div>
+      <div class="tl-title" data-i18n="tl4_title">Land Surface Temperature Research Project</div>
+      <div class="tl-desc" data-i18n="tl4_desc">"Impact of Land Use Change on Land Surface Temperature" using Google Earth Engine and remote sensing — National Authority for Remote Sensing &amp; Space Sciences (11–27 Jul).</div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-date" data-i18n="tl5_date">AUG – OCT 2024</div>
+      <div class="tl-title" data-i18n="tl5_title">GIS Bloggers — Intensive GIS Software Track</div>
+      <div class="tl-desc" data-i18n="tl5_desc">ArcGIS Pro, ArcGIS Desktop, ArcGIS Online, ArcGIS Earth, Google Earth, and satellite spatial/attribute data tools (3 Aug – 26 Oct).</div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-date" data-i18n="tl6_date">NOV 2024</div>
+      <div class="tl-title" data-i18n="tl6_title">World Urban Forum (WUF12)</div>
+      <div class="tl-desc" data-i18n="tl6_desc">Participated in the 12th session, organized by the United Nations, addressing urban agglomeration and sustainability (4–8 Nov).</div>
+    </div>
+
+    <div class="tl-item">
+      <div class="tl-date" data-i18n="tl7_date">DIPLOMA</div>
+      <div class="tl-title" data-i18n="tl7_title">GIS Specialization — University of California, Davis</div>
+      <div class="tl-desc" data-i18n="tl7_desc">Three-course online diploma: Fundamentals of GIS · GIS Data Formats, Design &amp; Quality · Geospatial Analysis with ArcGIS.</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="sec-head">
+    <span class="sec-num">07</span>
+    <span class="sec-title" data-i18n="sec_contact_title">Contact</span>
+    <span class="sec-rule"></span>
+  </div>
+  <div class="contact-wrap">
+    <div class="contact-big" data-i18n="contact_big">
+      Let's map out<br>
+      something together —<br>
+      <a href="mailto:zeyadahmed.geo31@gmail.com">zeyadahmed.geo31@gmail.com</a>
+    </div>
+    <div class="contact-list">
+      <div class="contact-row"><span class="k" data-i18n="c_phone">PHONE</span><span class="v"><a href="tel:+201222402933">+20 1222402933</a></span></div>
+      <div class="contact-row"><span class="k" data-i18n="c_location">LOCATION</span><span class="v" data-i18n="c_location_val">El-Bargil – Awsim, Giza, Egypt</span></div>
+      <div class="contact-row"><span class="k" data-i18n="c_linkedin">LINKEDIN</span><span class="v"><a href="https://www.linkedin.com/in/zeyad-ahmed-a870b4329" target="_blank" rel="noopener">/in/zeyad-ahmed-a870b4329</a></span></div>
+      <div class="contact-row"><span class="k" data-i18n="c_explorer">GIS EXPLORER</span><span class="v"><a href="https://www.instagram.com/gis_explorer25" target="_blank" rel="noopener">@gis_explorer25</a></span></div>
+    </div>
+  </div>
+</section>
+
+<footer data-i18n="footer">© 2026 Zeyad Ahmed Marei Abd Latif — Built one layer at a time.</footer>
+
+<script>
+  // Live coordinate readout — signature GIS status bar
+  // ---------------- mobile menu ----------------
+  function toggleMenu(){
+    document.getElementById('menuBtn').classList.toggle('open');
+    document.getElementById('mobileDrawer').classList.toggle('open');
+  }
+
+  // ---------------- CV view / download ----------------
+  const CV_BASE64 = "";
+  let _cvBlobUrl = null;
+  function getCvBlobUrl(){
+    if(_cvBlobUrl) return _cvBlobUrl;
+    const byteChars = atob(CV_BASE64);
+    const byteNumbers = new Array(byteChars.length);
+    for (let i = 0; i < byteChars.length; i++) byteNumbers[i] = byteChars.charCodeAt(i);
+    const byteArray = new Uint8Array(byteNumbers);
+    const blob = new Blob([byteArray], {type:'application/pdf'});
+    _cvBlobUrl = URL.createObjectURL(blob);
+    return _cvBlobUrl;
+  }
+  function viewCV(){
+    window.open(getCvBlobUrl(), '_blank');
+  }
+  function downloadCV(){
+    const a = document.createElement('a');
+    a.href = getCvBlobUrl();
+    a.download = 'Zeyad Ahmed - CV.pdf';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+  }
+
+  // ---------------- certificates ----------------
+  // Add one object per certificate. `img` can be a URL or a local file path
+  // once the image is placed alongside this HTML file.
+  const certificates = [
+      {
+            "title": {
+                  "en": "General English Course — Levels E2 to I2",
+                  "ar": "كورس اللغة الإنجليزية العامة — من E2 إلى I2"
+            },
+            "issuer": {
+                  "en": "Concept — Professional Training Solutions",
+                  "ar": "Concept — للتدريب المهني"
+            },
+            "date": "2023",
+            "page": 1,
+            "color": "#1A1A5E"
+      },
+      {
+            "title": {
+                  "en": "Terrestrial Surveying Training Certificate",
+                  "ar": "شهادة تدريب المساحة الأرضية"
+            },
+            "issuer": {
+                  "en": "NARSS — National Authority for Remote Sensing & Space Sciences",
+                  "ar": "الهيئة القومية للاستشعار عن بعد وعلوم الفضاء"
+            },
+            "date": "Jan 28 – Feb 1, 2024",
+            "page": 13,
+            "color": "#2C4A7C"
+      },
+      {
+            "title": {
+                  "en": "Aerial Surveying Training Certificate",
+                  "ar": "شهادة تدريب المساحة الجوية"
+            },
+            "issuer": {
+                  "en": "NARSS — National Authority for Remote Sensing & Space Sciences",
+                  "ar": "الهيئة القومية للاستشعار عن بعد وعلوم الفضاء"
+            },
+            "date": "Feb 4–8, 2024",
+            "page": 12,
+            "color": "#2C4A7C"
+      },
+      {
+            "title": {
+                  "en": "Construction Engineering & Management Training",
+                  "ar": "تدريب هندسة وإدارة التشييد"
+            },
+            "issuer": {
+                  "en": "Arab Contractors Company",
+                  "ar": "شركة المقاولون العرب"
+            },
+            "date": "Feb 1–23, 2023",
+            "page": 14,
+            "color": "#2D4A1E"
+      },
+      {
+            "title": {
+                  "en": "Land Surface Temperature Research — Remote Sensing",
+                  "ar": "بحث درجة حرارة سطح الأرض — استشعار عن بعد"
+            },
+            "issuer": {
+                  "en": "NARSS — National Authority for Remote Sensing & Space Sciences",
+                  "ar": "الهيئة القومية للاستشعار عن بعد وعلوم الفضاء"
+            },
+            "date": "Jul 11–27, 2024",
+            "page": 11,
+            "color": "#2C4A7C"
+      },
+      {
+            "title": {
+                  "en": "GIS Bloggers Intensive Course Certificate",
+                  "ar": "شهادة دورة GIS Bloggers المكثفة"
+            },
+            "issuer": {
+                  "en": "GIS Bloggers",
+                  "ar": "GIS Bloggers"
+            },
+            "date": "Aug 1 – Oct 15, 2024",
+            "page": 10,
+            "color": "#1A5276"
+      },
+      {
+            "title": {
+                  "en": "Certificate of Appreciation — Student Guidance (Arabic)",
+                  "ar": "شهادة تقدير — توجيه الطلاب الجدد"
+            },
+            "issuer": {
+                  "en": "Faculty of Arts, Cairo University",
+                  "ar": "كلية الآداب، جامعة القاهرة"
+            },
+            "date": "2024–2025",
+            "page": 9,
+            "color": "#1A3A6B"
+      },
+      {
+            "title": {
+                  "en": "Training Certificate — Suez Oil Company (SUCO)",
+                  "ar": "شهادة تدريب — شركة السويس للزيت (سوكو)"
+            },
+            "issuer": {
+                  "en": "Suez Oil Company (SUCO)",
+                  "ar": "شركة السويس للزيت (سوكو)"
+            },
+            "date": "Jul 20–31, 2025",
+            "page": 8,
+            "color": "#7B2D00"
+      },
+      {
+            "title": {
+                  "en": "Certificate of Appreciation — Student Guidance",
+                  "ar": "شهادة تقدير — إرشاد الطلاب"
+            },
+            "issuer": {
+                  "en": "Faculty of Arts, Cairo University",
+                  "ar": "كلية الآداب، جامعة القاهرة"
+            },
+            "date": "2025/2026",
+            "page": 7,
+            "color": "#1A3A6B"
+      },
+      {
+            "title": {
+                  "en": "GeoVision: Integrated Spatial Planning for New Valley Development",
+                  "ar": "GeoVision: التخطيط المكاني المتكامل لتنمية الوادي الجديد"
+            },
+            "issuer": {
+                  "en": "NARSS — National Authority for Remote Sensing & Space Sciences",
+                  "ar": "الهيئة القومية للاستشعار عن بعد وعلوم الفضاء"
+            },
+            "date": "Oct–Dec 2024",
+            "page": 6,
+            "color": "#2C4A7C"
+      },
+      {
+            "title": {
+                  "en": "Fundamentals of GIS",
+                  "ar": "أساسيات نظم المعلومات الجغرافية"
+            },
+            "issuer": {
+                  "en": "UC Davis / Coursera",
+                  "ar": "جامعة كاليفورنيا ديفيس / كورسيرا"
+            },
+            "date": "Sep 26, 2024",
+            "page": 5,
+            "color": "#B8860B"
+      },
+      {
+            "title": {
+                  "en": "GIS Data Formats, Design and Quality",
+                  "ar": "صيغ وتصميم وجودة بيانات GIS"
+            },
+            "issuer": {
+                  "en": "UC Davis / Coursera",
+                  "ar": "جامعة كاليفورنيا ديفيس / كورسيرا"
+            },
+            "date": "Oct 3, 2024",
+            "page": 4,
+            "color": "#B8860B"
+      },
+      {
+            "title": {
+                  "en": "Geospatial Analysis with ArcGIS",
+                  "ar": "التحليل المكاني باستخدام ArcGIS"
+            },
+            "issuer": {
+                  "en": "UC Davis / Coursera",
+                  "ar": "جامعة كاليفورنيا ديفيس / كورسيرا"
+            },
+            "date": "Oct 23, 2024",
+            "page": 3,
+            "color": "#B8860B"
+      },
+      {
+            "title": {
+                  "en": "Certificate of Appreciation — GIS Day",
+                  "ar": "شهادة تقدير — يوم GIS"
+            },
+            "issuer": {
+                  "en": "Egyptian Chinese University",
+                  "ar": "الجامعة الصينية المصرية"
+            },
+            "date": "30/11/2024",
+            "page": 2,
+            "color": "#8B1A1A"
+      },
+      {
+            "title": {
+                  "en": "Digital Twin Technology: Concepts and Applications",
+                  "ar": "تقنية التوأمة الرقمية: المفاهيم والتطبيقات"
+            },
+            "issuer": {
+                  "en": "ITI Platform",
+                  "ar": "منصة ITI"
+            },
+            "date": "16/04/2026",
+            "page": 15,
+            "color": "#8B1A1A"
+      }
+];
+
+  function renderCerts(){
+    const grid = document.getElementById('certGrid');
+    if(!grid) return;
+    grid.innerHTML = certificates.map((c, i) => {
+      const color = c.color || '#2DD4BF';
+      const r = parseInt(color.slice(1,3),16), g = parseInt(color.slice(3,5),16), b = parseInt(color.slice(5,7),16);
+      return `
+      <div class="cert-card" onclick="openCertModal(${i})" style="--cert-color:${color};--cert-rgb:${r},${g},${b}">
+        <div class="cert-preview">
+          <div class="cert-icon-wrap">
+            <svg viewBox="0 0 48 48" fill="none" class="cert-svg">
+              <rect x="4" y="2" width="32" height="40" rx="3" fill="rgba(${r},${g},${b},0.15)" stroke="${color}" stroke-width="1.5"/>
+              <rect x="8" y="10" width="20" height="1.5" rx="1" fill="${color}" opacity="0.7"/>
+              <rect x="8" y="15" width="24" height="1.5" rx="1" fill="${color}" opacity="0.5"/>
+              <rect x="8" y="20" width="18" height="1.5" rx="1" fill="${color}" opacity="0.4"/>
+              <rect x="8" y="25" width="22" height="1.5" rx="1" fill="${color}" opacity="0.4"/>
+              <circle cx="36" cy="36" r="10" fill="rgba(${r},${g},${b},0.18)" stroke="${color}" stroke-width="1.5"/>
+              <path d="M32 36 L35 39 L41 33" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </div>
+        <div class="cert-info">
+          <div class="cert-title">${c.title[currentLang]||c.title.en||c.title.ar||''}</div>
+          <div class="cert-meta">${c.issuer[currentLang]||c.issuer.en||c.issuer.ar||''}</div>
+          <div class="cert-date">${c.date}</div>
+        </div>
+        <div class="cert-arrow">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+        </div>
+      </div>`;
+    }).join('');
+  }
+
+  const CERT_IMAGES = {
+  "1": "https://fcbdgyzjvedriziriwnh.supabase.co/storage/v1/object/public/portfolio/certificates/cert-01.jpg",
+  "2": "https://fcbdgyzjvedriziriwnh.supabase.co/storage/v1/object/public/portfolio/certificates/cert-02.jpg",
+  "3": "https://fcbdgyzjvedriziriwnh.supabase.co/storage/v1/object/public/portfolio/certificates/cert-03.jpg",
+  "4": "https://fcbdgyzjvedriziriwnh.supabase.co/storage/v1/object/public/portfolio/certificates/cert-04.jpg",
+  "5": "https://fcbdgyzjvedriziriwnh.supabase.co/storage/v1/object/public/portfolio/certificates/cert-05.jpg",
+  "6": "https://fcbdgyzjvedriziriwnh.supabase.co/storage/v1/object/public/portfolio/certificates/cert-06.jpg",
+  "7": "https://fcbdgyzjvedriziriwnh.supabase.co/storage/v1/object/public/portfolio/certificates/cert-07.jpg",
+  "8": "https://fcbdgyzjvedriziriwnh.supabase.co/storage/v1/object/public/portfolio/certificates/cert-08.jpg",
+  "9": "https://fcbdgyzjvedriziriwnh.supabase.co/storage/v1/object/public/portfolio/certificates/cert-09.jpg",
+  "10": "https://fcbdgyzjvedriziriwnh.supabase.co/storage/v1/object/public/portfolio/certificates/cert-10.jpg",
+  "11": "https://fcbdgyzjvedriziriwnh.supabase.co/storage/v1/object/public/portfolio/certificates/cert-11.jpg",
+  "12": "https://fcbdgyzjvedriziriwnh.supabase.co/storage/v1/object/public/portfolio/certificates/cert-12.jpg",
+  "13": "https://fcbdgyzjvedriziriwnh.supabase.co/storage/v1/object/public/portfolio/certificates/cert-13.jpg",
+  "14": "https://fcbdgyzjvedriziriwnh.supabase.co/storage/v1/object/public/portfolio/certificates/cert-14.jpg",
+  "15": "https://fcbdgyzjvedriziriwnh.supabase.co/storage/v1/object/public/portfolio/certificates/cert-15.png"
+};
+
+  function openCertModal(i){
+    const c = certificates[i];
+    if(!c) return;
+    const modal = document.getElementById('certModal');
+    document.getElementById('certModalTitle').textContent = c.title[currentLang]||c.title.en||c.title.ar||'';
+    document.getElementById('certModalIssuer').textContent = c.issuer[currentLang]||c.issuer.en||c.issuer.ar||'';
+    document.getElementById('certModalDate').textContent = c.date;
+    // Certificate image is served from Supabase Storage
+    const imgEl = document.getElementById('certPdfImg');
+    imgEl.src = c.image || CERT_IMAGES[c.page] || '';
+    modal.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeCertModal(e){
+    if(!e || e.target.id === 'certModal' || e.currentTarget.classList.contains('cm-close')){
+      document.getElementById('certModal').classList.remove('open');
+      document.getElementById('certPdfImg').src = '';
+      document.body.style.overflow = '';
+    }
+  }
+  function openLightbox(i){ openCertModal(i); }
+  function closeLightbox(e){ closeCertModal(e); }
+  document.addEventListener('keydown', (e)=>{
+    if(e.key === 'Escape') closeCertModal();
+  });
+
+  // ---------------- scroll reveal ----------------
+  function initReveal(){
+    document.querySelectorAll('section#about, section#skills, section#explorer, section#projects, section#certificates, section#education, section#contact')
+      .forEach(el => el.classList.add('reveal'));
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(entry => {
+        if(entry.isIntersecting){
+          entry.target.classList.add('in-view');
+          io.unobserve(entry.target);
+        }
+      });
+    }, {threshold:0.12});
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  }
+
+  // ---------------- scrollspy ----------------
+  function initScrollspy(){
+    const navLinks = document.querySelectorAll('nav .links a');
+    const sections = [...navLinks].map(a => document.querySelector(a.getAttribute('href')));
+    const spy = new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting){
+          const id = '#' + entry.target.id;
+          navLinks.forEach(a => {
+            a.style.color = '';
+            a.classList.toggle('active', a.getAttribute('href') === id);
+          });
+        }
+      });
+    }, {rootMargin:'-45% 0px -50% 0px'});
+    sections.forEach(s => s && spy.observe(s));
+  }
+
+  document.addEventListener('DOMContentLoaded', ()=>{
+    renderCerts();
+    initReveal();
+    initScrollspy();
+  });
+
+  // ---------------- i18n ----------------
+  const dict = {
+  "nav_projects": {"en": "Projects", "ar": "المشاريع"},
+  "sec_projects_title": {"en": "Projects", "ar": "المشاريع"},
+  "proj_open": {"en": "Visit project →", "ar": "زيارة المشروع ←"},
+  "nav_about": {
+    "en": "About",
+    "ar": "نبذة عني"
+  },
+  "nav_skills": {
+    "en": "Skills",
+    "ar": "المهارات"
+  },
+  "nav_explorer": {
+    "en": "GIS Explorer",
+    "ar": "GIS إكسبلورر"
+  },
+  "nav_certificates": {
+    "en": "Certificates",
+    "ar": "الشهادات"
+  },
+  "nav_education": {
+    "en": "Education",
+    "ar": "التعليم"
+  },
+  "nav_contact": {
+    "en": "Contact",
+    "ar": "تواصل"
+  },
+  "eyebrow": {
+    "en": "Surveying · GIS · Remote Sensing",
+    "ar": "المساحة · نظم المعلومات الجغرافية · الاستشعار عن بعد"
+  },
+  "hero_name": {
+    "en": "ZEYAD AHMED<br><span class=\"last\">MAREI ABD LATIF</span>",
+    "ar": "زياد أحمد<br><span class=\"last\">مرعي عبد اللطيف</span>"
+  },
+  "hero_role": {
+    "en": "GIS Specialist &amp; Assistant Surveyor",
+    "ar": "أخصائي نظم معلومات جغرافية ومساعد مساح"
+  },
+  "hero_desc": {
+    "en": "Graduate of Surveying, Geographic Information Systems &amp; Remote Sensing at Cairo University. I turn raw spatial data — satellite imagery, field surveys, drone passes — into maps and analysis that people can actually act on.",
+    "ar": "خريج برنامج المساحة ونظم المعلومات الجغرافية والاستشعار عن بعد بجامعة القاهرة. أحوّل البيانات المكانية الخام — الصور الفضائية، المسح الميداني، الطائرات بدون طيار — إلى خرائط وتحليلات يمكن الاعتماد عليها فعليًا."
+  },
+  "btn_primary": {
+    "en": "View GIS Explorer →",
+    "ar": "استكشف GIS Explorer ←"
+  },
+  "btn_ghost": {
+    "en": "Get in touch",
+    "ar": "تواصل معي"
+  },
+  "btn_view_cv": {
+    "en": "View CV",
+    "ar": "شاهد السيرة الذاتية"
+  },
+  "btn_download_cv": {
+    "en": "Download CV",
+    "ar": "تحميل السيرة الذاتية"
+  },
+  "scroll_cue": {
+    "en": "SCROLL",
+    "ar": "مرّر للأسفل"
+  },
+  "sec_about_title": {
+    "en": "About",
+    "ar": "نبذة عني"
+  },
+  "about_p1": {
+    "en": "I'm <strong>Zeyad</strong>, a GIS Specialist and Assistant Surveyor based in Giza, Egypt. My background is in the Surveying Program (GIS &amp; Remote Sensing track) at the <strong>Faculty of Arts, Cairo University</strong>, where I graduated with a cumulative GPA of <strong>3.03 (Very Good)</strong>.",
+    "ar": "أنا <strong>زياد</strong>، أخصائي نظم معلومات جغرافية ومساعد مساح من الجيزة، مصر. خلفيتي الدراسية في برنامج المساحة (مسار نظم المعلومات الجغرافية والاستشعار عن بعد) في <strong>كلية الآداب، جامعة القاهرة</strong>، وتخرجت بمعدل تراكمي <strong>3.030 (جيد جدًا)</strong>."
+  },
+  "about_p2": {
+    "en": "My work sits at the intersection of fieldwork and software: I've trained on <strong>terrestrial and aerial surveying</strong>, run land-surface-temperature analysis with Google Earth Engine, and built out dashboards and story maps on ArcGIS Online. I'm currently looking for a role where I can keep developing those skills on real, challenging spatial problems.",
+    "ar": "يجمع شغلي بين العمل الميداني والبرمجيات: تدرّبت على <strong>المساحة الأرضية والجوية</strong>، وأجريت تحليلات لدرجة حرارة سطح الأرض باستخدام Google Earth Engine، وبنيت لوحات بيانات وقصص خرائط على ArcGIS Online. أبحث حاليًا عن فرصة تتيح لي تطوير هذه المهارات على مشكلات مكانية حقيقية وصعبة."
+  },
+  "field_note": {
+    "en": "<b>Field note</b> Trained through the National Authority for Remote Sensing &amp; Space Sciences, GIS Bloggers, and a UC Davis online specialization in GIS.",
+    "ar": "<b>ملاحظة ميدانية</b> تدرّبت من خلال الهيئة القومية للاستشعار عن بعد وعلوم الفضاء، وGIS Bloggers، ودبلومة أونلاين في نظم المعلومات الجغرافية من جامعة كاليفورنيا ديفيس."
+  },
+  "stat1": {
+    "en": "Cumulative GPA",
+    "ar": "المعدل التراكمي"
+  },
+  "stat2": {
+    "en": "Field Trainings",
+    "ar": "تدريبات ميدانية"
+  },
+  "stat3": {
+    "en": "GIS Diplomas (UC Davis)",
+    "ar": "دبلومات GIS (UC Davis)"
+  },
+  "stat4": {
+    "en": "Based In, Egypt",
+    "ar": "مقرّ العمل، مصر"
+  },
+  "stat4_num": {
+    "en": "Giza",
+    "ar": "الجيزة"
+  },
+  "sec_skills_title": {
+    "en": "Technical Layers",
+    "ar": "الطبقات التقنية"
+  },
+  "layer1": {
+    "en": "GIS Desktop",
+    "ar": "برمجيات سطح المكتب"
+  },
+  "layer2": {
+    "en": "GIS Online",
+    "ar": "خدمات الأونلاين"
+  },
+  "layer3": {
+    "en": "Remote Sensing",
+    "ar": "الاستشعار عن بعد"
+  },
+  "layer4": {
+    "en": "Field Survey",
+    "ar": "المساحة الميدانية"
+  },
+  "layer5": {
+    "en": "Office",
+    "ar": "برامج المكتب"
+  },
+  "sec_explorer_title": {
+    "en": "Featured Project",
+    "ar": "المشروع المميز"
+  },
+  "project_tag": {
+    "en": "Founder · Content &amp; Community Lead",
+    "ar": "مؤسس · قائد المحتوى والمجتمع"
+  },
+  "project_desc": {
+    "en": "GIS Explorer is a page I founded to make geographic information systems and remote sensing more approachable — sharing tutorials, software walkthroughs, satellite imagery breakdowns, and field-survey tips across Facebook, Instagram, YouTube, and TikTok. As founder, I lead the content direction and manage the community across every channel.",
+    "ar": "GIS Explorer هي صفحة أسستها لتبسيط نظم المعلومات الجغرافية والاستشعار عن بعد، من خلال شرح البرامج، وتحليل الصور الفضائية، ونصائح المساحة الميدانية عبر فيسبوك وإنستجرام ويوتيوب وتيك توك. بصفتي المؤسس، أتولى التوجه الإبداعي للمحتوى وأدير المجتمع على كل المنصات."
+  },
+  "soc_fb": {
+    "en": "Facebook",
+    "ar": "فيسبوك"
+  },
+  "soc_ig": {
+    "en": "Instagram",
+    "ar": "إنستجرام"
+  },
+  "soc_yt": {
+    "en": "YouTube",
+    "ar": "يوتيوب"
+  },
+  "soc_tt": {
+    "en": "TikTok",
+    "ar": "تيك توك"
+  },
+  "sec_cert_title": {
+    "en": "Certificates &amp; Credentials",
+    "ar": "الشهادات والاعتمادات"
+  },
+  "cert_empty_title": {
+    "en": "Certificates coming soon",
+    "ar": "الشهادات قريبًا"
+  },
+  "cert_empty_desc": {
+    "en": "This section is reserved for course completion certificates, training attendance letters, and diplomas — they'll appear here as a gallery you can click to view full-size.",
+    "ar": "هذا القسم مخصص لشهادات إتمام الدورات وخطابات حضور التدريبات والدبلومات — هتظهر هنا في معرض صور يمكن الضغط عليها لعرضها بالحجم الكامل."
+  },
+  "sec_education_title": {
+    "en": "Education &amp; Field Training",
+    "ar": "التعليم والتدريب الميداني"
+  },
+  "tl1_date": {
+    "en": "2026 — GRADUATED",
+    "ar": "2026 — تخرّج"
+  },
+  "tl1_title": {
+    "en": "Licence, Surveying — GIS &amp; Remote Sensing",
+    "ar": "ليسانس مساحة — نظم معلومات جغرافية واستشعار عن بعد"
+  },
+  "tl1_desc": {
+    "en": "Faculty of Arts, Cairo University. Cumulative GPA: 3.03 (Very Good).",
+    "ar": "كلية الآداب، جامعة القاهرة. المعدل التراكمي: 3.03 (جيد جدًا)."
+  },
+  "tl2_date": {
+    "en": "JAN – FEB 2024",
+    "ar": "يناير – فبراير 2024"
+  },
+  "tl2_title": {
+    "en": "Terrestrial &amp; Aerial Surveying Training",
+    "ar": "تدريب المساحة الأرضية والجوية"
+  },
+  "tl2_desc": {
+    "en": "Two courses with the National Authority for Remote Sensing &amp; Space Sciences: terrestrial surveying (28 Jan – 1 Feb) and aerial surveying (4–8 Feb).",
+    "ar": "دورتان مع الهيئة القومية للاستشعار عن بعد وعلوم الفضاء: المساحة الأرضية (28 يناير – 1 فبراير) والمساحة الجوية (4–8 فبراير)."
+  },
+  "tl3_date": {
+    "en": "FEB 2024",
+    "ar": "فبراير 2024"
+  },
+  "tl3_title": {
+    "en": "Construction Engineering &amp; Management",
+    "ar": "هندسة وإدارة التشييد"
+  },
+  "tl3_desc": {
+    "en": "Summer college training program with Arab Contractors Company (1–23 Feb).",
+    "ar": "برنامج تدريب صيفي جامعي مع شركة المقاولون العرب (1–23 فبراير)."
+  },
+  "tl4_date": {
+    "en": "JUL 2024",
+    "ar": "يوليو 2024"
+  },
+  "tl4_title": {
+    "en": "Land Surface Temperature Research Project",
+    "ar": "مشروع بحثي عن درجة حرارة سطح الأرض"
+  },
+  "tl4_desc": {
+    "en": "\"Impact of Land Use Change on Land Surface Temperature\" using Google Earth Engine and remote sensing — National Authority for Remote Sensing &amp; Space Sciences (11–27 Jul).",
+    "ar": "«تأثير تغيّر استخدام الأراضي على درجة حرارة سطح الأرض» باستخدام Google Earth Engine والاستشعار عن بعد — الهيئة القومية للاستشعار عن بعد وعلوم الفضاء (11–27 يوليو)."
+  },
+  "tl5_date": {
+    "en": "AUG – OCT 2024",
+    "ar": "أغسطس – أكتوبر 2024"
+  },
+  "tl5_title": {
+    "en": "GIS Bloggers — Intensive GIS Software Track",
+    "ar": "GIS Bloggers — مسار برامج GIS المكثف"
+  },
+  "tl5_desc": {
+    "en": "ArcGIS Pro, ArcGIS Desktop, ArcGIS Online, ArcGIS Earth, Google Earth, and satellite spatial/attribute data tools (3 Aug – 26 Oct).",
+    "ar": "ArcGIS Pro وArcGIS Desktop وArcGIS Online وArcGIS Earth وGoogle Earth وأدوات الصور الفضائية المكانية والوصفية (3 أغسطس – 26 أكتوبر)."
+  },
+  "tl6_date": {
+    "en": "NOV 2024",
+    "ar": "نوفمبر 2024"
+  },
+  "tl6_title": {
+    "en": "World Urban Forum (WUF12)",
+    "ar": "المنتدى الحضري العالمي (WUF12)"
+  },
+  "tl6_desc": {
+    "en": "Participated in the 12th session, organized by the United Nations, addressing urban agglomeration and sustainability (4–8 Nov).",
+    "ar": "شاركت في الدورة الثانية عشرة، التي نظمتها الأمم المتحدة، لمناقشة التحضر العمراني والاستدامة (4–8 نوفمبر)."
+  },
+  "tl7_date": {
+    "en": "DIPLOMA",
+    "ar": "دبلومة"
+  },
+  "tl7_title": {
+    "en": "GIS Specialization — University of California, Davis",
+    "ar": "تخصص GIS — جامعة كاليفورنيا ديفيس"
+  },
+  "tl7_desc": {
+    "en": "Three-course online diploma: Fundamentals of GIS · GIS Data Formats, Design &amp; Quality · Geospatial Analysis with ArcGIS.",
+    "ar": "دبلومة أونلاين من ثلاث دورات: أساسيات نظم المعلومات الجغرافية · صيغ وتصميم وجودة بيانات GIS · التحليل المكاني باستخدام ArcGIS."
+  },
+  "sec_contact_title": {
+    "en": "Contact",
+    "ar": "تواصل"
+  },
+  "contact_big": {
+    "en": "Let's map out<br>something together —<br><a href=\"mailto:zeyadahmed.geo31@gmail.com\">zeyadahmed.geo31@gmail.com</a>",
+    "ar": "لنرسم معًا<br>شيئًا مميزًا —<br><a href=\"mailto:zeyadahmed.geo31@gmail.com\">zeyadahmed.geo31@gmail.com</a>"
+  },
+  "c_phone": {
+    "en": "PHONE",
+    "ar": "الهاتف"
+  },
+  "c_location": {
+    "en": "LOCATION",
+    "ar": "الموقع"
+  },
+  "c_location_val": {
+    "en": "El-Bargil – Awsim, Giza, Egypt",
+    "ar": "البرجيل – أوسيم، الجيزة، مصر"
+  },
+  "c_linkedin": {
+    "en": "LINKEDIN",
+    "ar": "لينكدإن"
+  },
+  "c_explorer": {
+    "en": "GIS EXPLORER",
+    "ar": "GIS EXPLORER"
+  },
+  "footer": {
+    "en": "© 2026 Zeyad Ahmed Marei Abd Latif .",
+    "ar": "© 2026 زياد أحمد مرعي عبد اللطيف "
+  }
+};
+
+  let currentLang = 'en';
+  function applyLang(lang){
+    currentLang = lang;
+    document.documentElement.lang = lang;
+    document.documentElement.dir = (lang === 'ar') ? 'rtl' : 'ltr';
+    document.body.classList.toggle('font-ar', lang === 'ar');
+    document.querySelectorAll('[data-i18n]').forEach(el=>{
+      const key = el.getAttribute('data-i18n');
+      if(dict[key]){
+        el.innerHTML = dict[key][lang];
+      }
+    });
+    document.getElementById('langToggle').textContent = (lang === 'ar') ? 'English' : 'العربية';
+    renderCerts();
+  }
+  function toggleTheme(){
+    const d=document.documentElement, next=d.getAttribute('data-theme')==='light'?'dark':'light';
+    d.setAttribute('data-theme',next);
+    try{localStorage.setItem('theme',next)}catch(e){}
+    syncThemeBtn();
+  }
+  function syncThemeBtn(){
+    const b=document.getElementById('themeToggle');
+    if(b) b.textContent=document.documentElement.getAttribute('data-theme')==='light'?'☀':'☾';
+  }
+  document.addEventListener('DOMContentLoaded',syncThemeBtn);
+  function toggleLang(){
+    applyLang(currentLang === 'en' ? 'ar' : 'en');
+  }
+</script>
+
+<script>
+(function(){
+  // ---- geospatial background (contours + graticule labels + glowing points) ----
+  const bg=document.createElement('div');bg.className='geo-bg';
+  const W=1600,H=1000,NS='http://www.w3.org/2000/svg';
+  function hill(cx,cy,R,n,seed){let d='';const out=[];
+    for(let l=1;l<=n;l++){const r0=R*l/n;let p='';
+      for(let a=0;a<=64;a++){const t=a/64*Math.PI*2;
+        const w=1+.16*Math.sin(3*t+seed+l*.25)+.09*Math.sin(5*t+seed*2)+.05*Math.sin(9*t+seed*3+l*.1);
+        const x=cx+Math.cos(t)*r0*w*1.25,y=cy+Math.sin(t)*r0*w*.8;p+=(a?'L':'M')+x.toFixed(1)+' '+y.toFixed(1);}
+      out.push('<path class="'+(l%5==0?'idx':'')+'" d="'+p+'Z"/>');}
+    return out.join('');}
+  const pts=[[1240,170,'p1'],[300,720,'p2'],[860,860,'p3'],[1450,640,'p2'],[520,230,'p3'],[980,430,'p1']];
+  let lbl='';[['31°E',400],['32°E',800],['33°E',1200]].forEach(a=>lbl+='<text class="geo-lbl" x="'+a[1]+'" y="30">'+a[0]+'</text>');
+  [['31°N',250],['30°N',500],['29°N',750]].forEach(a=>lbl+='<text class="geo-lbl" x="14" y="'+a[1]+'">'+a[0]+'</text>');
+  bg.innerHTML='<div class="lyr geo-glow" data-d="8"></div>'+
+   '<div class="lyr" data-d="14"><svg class="geo-contour" viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="xMidYMid slice">'+hill(1250,260,330,16,1.2)+hill(260,760,300,14,4.1)+hill(900,900,220,10,2.6)+'</svg></div>'+
+   '<div class="lyr" data-d="26"><svg viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="xMidYMid slice">'+lbl+
+   pts.map(p=>'<circle class="geo-ring" cx="'+p[0]+'" cy="'+p[1]+'" r="11"/><circle class="geo-pt '+p[2]+'" cx="'+p[0]+'" cy="'+p[1]+'" r="3"/>').join('')+'</svg></div>';
+  document.body.prepend(bg);
+  // ---- subtle mouse parallax (desktop, motion allowed) ----
+  const ok=matchMedia('(pointer:fine)').matches&&!matchMedia('(prefers-reduced-motion:reduce)').matches;
+  if(ok){let raf=0,mx=0,my=0;const L=[...bg.querySelectorAll('.lyr')];
+    addEventListener('mousemove',e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5;
+      if(!raf)raf=requestAnimationFrame(()=>{raf=0;L.forEach(l=>{const d=+l.dataset.d;l.style.transform='translate3d('+(-mx*d).toFixed(1)+'px,'+(-my*d).toFixed(1)+'px,0)';});});},{passive:true});}
+  // ---- nav state on scroll ----
+  const nav=document.querySelector('nav');
+  const f=()=>nav&&nav.classList.toggle('scrolled',scrollY>20);f();addEventListener('scroll',f,{passive:true});
+})();
+</script>
+<script>
+const SUPABASE_URL='https://fcbdgyzjvedriziriwnh.supabase.co',SUPABASE_ANON_KEY=''; /* ← الصق الـ anon key هنا */
+const projects=[];
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const L=o=>o?(o[currentLang]||o.en||o.ar||''):'';
+function clean(h){const t=document.createElement('template');t.innerHTML=h;const ok='BR,STRONG,B,EM,I,SPAN,A'.split(',');(function w(n){[...n.childNodes].forEach(c=>{if(c.nodeType==1){w(c);if(!ok.includes(c.tagName)){while(c.firstChild)n.insertBefore(c.firstChild,c);c.remove()}else[...c.attributes].forEach(a=>{if(!(a.name=='class'||(c.tagName=='A'&&a.name=='href'&&/^(https?:|mailto:|tel:)/i.test(a.value))))c.removeAttribute(a.name)})}else if(c.nodeType!=3)c.remove()})})(t.content);return t.innerHTML}
+function renderProjects(){
+  const on=projects.length||window.ADMIN;
+  document.getElementById('projects').style.display=on?'':'none';
+  document.querySelectorAll('a[href="#projects"]').forEach(a=>a.style.display=on?'':'none');
+  document.getElementById('projGrid').innerHTML=projects.map((p,i)=>`<article class="proj-card" onclick="openProject(${i})"><div class="proj-cover">${p.image?`<img loading="lazy" src="${esc(p.image)}" alt="">`:''}</div><div class="proj-info"><div class="proj-name">${esc(L(p.title))}</div><p class="proj-desc">${esc(L(p.desc))}</p>${/^https?:/.test(p.link||'')?`<a class="proj-link" href="${esc(p.link)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${esc(L(dict.proj_open))}</a>`:''}</div></article>`).join('');
+}
+function openProject(i){const p=projects[i];if(!p||!p.image)return;certModalTitle.textContent=L(p.title);certModalIssuer.textContent=L(p.desc).slice(0,90);certModalDate.textContent='';certPdfImg.src=p.image;certModal.classList.add('open')}
+const _al=applyLang;applyLang=function(l){_al(l);renderProjects()};
+function applySiteData(d){
+  for(const k in d.texts||{})dict[k]=Object.assign(dict[k]||{},Object.fromEntries(Object.entries(d.texts[k]).map(([l,v])=>[l,clean(v)])));
+  if(Array.isArray(d.certificates)){certificates.length=0;certificates.push(...d.certificates)}
+  if(Array.isArray(d.projects)){projects.length=0;projects.push(...d.projects)}
+  if(d.hero_photo)document.querySelector('.hero-photo').src=d.hero_photo;
+  applyLang(currentLang);
+}
+document.addEventListener('DOMContentLoaded',async()=>{
+  renderProjects();if(window.ADMIN||!SUPABASE_ANON_KEY)return;
+  try{applySiteData(JSON.parse(localStorage.zamCache))}catch(e){}
+  try{const r=await fetch(SUPABASE_URL+'/rest/v1/site_content?id=eq.main&select=data',{headers:{apikey:SUPABASE_ANON_KEY}});const j=await r.json();if(j[0]){localStorage.zamCache=JSON.stringify(j[0].data);applySiteData(j[0].data)}}catch(e){}
+});
+</script>
+<style>
+.ed{outline:1px dashed transparent;outline-offset:3px;border-radius:4px;cursor:text}.ed:hover{outline-color:rgba(45,212,191,.5)}.ed:focus{outline:2px solid #2DD4BF;background:rgba(45,212,191,.06)}
+#aBar{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);z-index:200;display:none;gap:10px;align-items:center;padding:10px 14px;background:#04101C;border:1px solid #1B4560;border-radius:50px;box-shadow:0 8px 30px #000a;font:13px Cairo,sans-serif;color:#EAF6F7;direction:rtl}
+.adm-b{font:600 13px Cairo,sans-serif;padding:8px 16px;border-radius:50px;border:1px solid #2DD4BF66;background:transparent;color:#2DD4BF;cursor:pointer}.adm-b.p{background:#2DD4BF;color:#04101C}
+.adm-bg{position:fixed;inset:0;z-index:300;background:#020a12d9;display:grid;place-items:center;padding:16px;overflow:auto}
+.adm-dlg{width:min(460px,100%);background:#0C2438;border:1px solid #1B4560;border-radius:16px;padding:22px;color:#EAF6F7;font:14px Cairo,sans-serif}
+.adm-dlg h3{margin-bottom:10px}.adm-dlg label{display:block;margin:12px 0 4px;font-size:12px;color:#8FB0BC}
+.adm-dlg input,.adm-dlg textarea{width:100%;padding:9px 12px;border-radius:10px;border:1px solid #1B4560;background:#04101C;color:#EAF6F7;font:inherit}.adm-dlg input[type=color]{height:40px;padding:2px}
+.adm-img{display:flex;gap:10px;align-items:center}.adm-img img{width:90px;height:64px;object-fit:cover;border-radius:8px;background:#04101C}
+.adm-act{display:flex;gap:10px;justify-content:flex-start;margin-top:18px}
+.adm-t{position:absolute;top:10px;inset-inline-end:10px;display:flex;gap:6px;z-index:5}.adm-t button{width:30px;height:30px;border-radius:50%;border:1px solid #2DD4BF66;background:#04101Ccc;cursor:pointer}
+.adm-add{min-height:120px;border:2px dashed #2DD4BF66;border-radius:14px;background:transparent;color:#2DD4BF;font:600 14px Cairo,sans-serif;cursor:pointer}
+.adm-ph{position:absolute;bottom:-8px;left:50%;transform:translateX(-50%);z-index:5;white-space:nowrap}
+#aLogin{position:fixed;inset:0;z-index:400;background:#04101C;display:grid;place-items:center}#aLogin .adm-dlg{text-align:right}
+</style>
+<script>
+window.ADMIN=true;
+(function(){
+const sb=SUPABASE_ANON_KEY&&supabase.createClient(SUPABASE_URL,SUPABASE_ANON_KEY),$=s=>document.querySelector(s);
+let dirty=0,edited={},hero='',on=0;
+const toast=m=>$('#aS').textContent=m,mark=()=>{dirty=1;toast('● تغييرات غير محفوظة')};
+async function shrink(f){const m=await createImageBitmap(f),s=Math.min(1,1800/Math.max(m.width,m.height)),c=document.createElement('canvas');c.width=m.width*s;c.height=m.height*s;const x=c.getContext('2d');x.fillStyle='#fff';x.fillRect(0,0,c.width,c.height);x.drawImage(m,0,0,c.width,c.height);return new Promise(r=>c.toBlob(r,'image/jpeg',.88))}
+async function up(folder){
+  const f=await new Promise(r=>{const i=document.createElement('input');i.type='file';i.accept='image/*';i.onchange=()=>r(i.files[0]);i.click()});
+  toast('جاري الرفع…');const p=folder+'/'+Date.now()+'.jpg';
+  const{error}=await sb.storage.from('portfolio').upload(p,await shrink(f),{contentType:'image/jpeg',cacheControl:'31536000'});
+  if(error){toast('فشل الرفع: '+error.message);return}
+  toast('تم الرفع ✓ — اضغط حفظ');return sb.storage.from('portfolio').getPublicUrl(p).data.publicUrl}
+const g=(o,k)=>k.split('.').reduce((a,b)=>a&&a[b],o),st=(o,k,v)=>{const p=k.split('.');let a=o;p.slice(0,-1).forEach(x=>a=a[x]=a[x]||{});a[p.pop()]=v};
+function form(title,F,v,ok){
+  const d=document.createElement('div');d.className='adm-bg';
+  d.innerHTML=`<div class="adm-dlg"><h3>${title}</h3>${F.map(([k,l,t,fo])=>`<label>${l}</label>`+(t=='img'?`<div class="adm-img"><img src="${esc(g(v,k)||'')}"><button type="button" class="adm-b" data-img="${k}" data-f="${fo}">رفع صورة</button></div>`:t=='area'?`<textarea data-k="${k}" rows="4">${esc(g(v,k)||'')}</textarea>`:`<input data-k="${k}" type="${t||'text'}" value="${esc(g(v,k)||(t=='color'?'#2DD4BF':''))}">`)).join('')}<div class="adm-act"><button class="adm-b p" data-ok>حفظ</button><button class="adm-b" data-x>إلغاء</button></div></div>`;
+  document.body.append(d);
+  d.querySelectorAll('[data-img]').forEach(b=>b.onclick=async()=>{const u=await up(b.dataset.f);if(u){st(v,b.dataset.img,u);b.previousElementSibling.src=u}});
+  d.querySelector('[data-x]').onclick=()=>d.remove();
+  d.querySelector('[data-ok]').onclick=()=>{d.querySelectorAll('[data-k]').forEach(i=>st(v,i.dataset.k,i.value));ok(v);d.remove();mark()}}
+function deco(grid,sel,arr,F,blank,re){
+  grid.querySelectorAll(sel).forEach((c,i)=>{c.insertAdjacentHTML('beforeend','<div class="adm-t"><button>✎</button><button>🗑</button></div>');const[e,x]=c.querySelectorAll('.adm-t button');
+    e.onclick=ev=>{ev.stopPropagation();const o=JSON.parse(JSON.stringify(arr[i]));o.image=o.image||CERT_IMAGES[o.page]||'';form('تعديل',F,o,v=>{arr[i]=v;re()})};
+    x.onclick=ev=>{ev.stopPropagation();if(confirm('حذف العنصر ده؟')){arr.splice(i,1);mark();re()}}});
+  const a=document.createElement('button');a.className='adm-add';a.textContent='＋ إضافة';a.onclick=()=>form('إضافة',F,blank(),v=>{arr.push(v);re()});grid.append(a)}
+const CF=[['title.en','العنوان (EN)'],['title.ar','العنوان (AR)'],['issuer.en','الجهة (EN)'],['issuer.ar','الجهة (AR)'],['date','التاريخ'],['color','اللون','color'],['image','صورة الشهادة','img','certificates']];
+const PF=[['title.en','اسم المشروع (EN)'],['title.ar','اسم المشروع (AR)'],['desc.en','الوصف (EN)','area'],['desc.ar','الوصف (AR)','area'],['link','رابط المشروع (اختياري)'],['image','صورة المشروع','img','projects']];
+const rc=renderCerts;renderCerts=function(){rc();if(on)deco($('#certGrid'),'.cert-card',certificates,CF,()=>({title:{},issuer:{},date:'',color:'#2DD4BF',image:''}),renderCerts)};
+const rp=renderProjects;renderProjects=function(){rp();if(on)deco($('#projGrid'),'.proj-card',projects,PF,()=>({title:{},desc:{},link:'',image:''}),renderProjects)};
+async function save(){
+  const data={texts:edited,hero_photo:hero,certificates:certificates.map(c=>({title:c.title,issuer:c.issuer,date:c.date||'',color:c.color||'#2DD4BF',image:c.image||CERT_IMAGES[c.page]||''})),projects};
+  const{error}=await sb.from('site_content').upsert({id:'main',data,updated_at:new Date().toISOString()});
+  if(error)toast('فشل الحفظ: '+error.message);else{dirty=0;toast('تم الحفظ ✓')}}
+async function enter(){
+  $('#aLogin').remove();$('#aBar').style.display='flex';
+  const{data,error}=await sb.from('site_content').select('data').eq('id','main').maybeSingle();
+  if(error)toast('تعذّر التحميل (شغّل setup.sql؟): '+error.message);
+  if(data){edited=data.data.texts||{};hero=data.data.hero_photo||'';applySiteData(data.data)}
+  on=1;
+  document.execCommand('defaultParagraphSeparator',false,'br');
+  document.querySelectorAll('[data-i18n]').forEach(el=>{if(!el.closest('nav,.mobile-drawer,button,a')){el.contentEditable=true;el.classList.add('ed')}});
+  const b=document.createElement('button');b.className='adm-b p adm-ph';b.textContent='📷 تغيير الصورة';b.onclick=async()=>{const u=await up('hero');if(u){$('.hero-photo').src=u;hero=u;mark()}};$('.photo-frame').append(b);
+  renderCerts();renderProjects();toast('اضغط على أي نص لتعديله')}
+document.addEventListener('input',e=>{const el=e.target.closest&&e.target.closest('.ed');if(!el)return;const k=el.dataset.i18n;dict[k][currentLang]=clean(el.innerHTML);edited[k]={...dict[k]};mark()});
+document.addEventListener('paste',e=>{if(e.target.closest&&e.target.closest('.ed')){e.preventDefault();document.execCommand('insertText',false,e.clipboardData.getData('text/plain'))}});
+document.addEventListener('click',e=>{if(e.target.closest('.ed a'))e.preventDefault()});
+document.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key=='s'&&on){e.preventDefault();save()}});
+addEventListener('beforeunload',e=>{if(dirty){e.preventDefault();e.returnValue=''}});
+document.addEventListener('DOMContentLoaded',async()=>{
+  document.body.insertAdjacentHTML('beforeend',`<div id="aBar"><span id="aS"></span><button class="adm-b p" id="aSave">💾 حفظ</button><a class="adm-b" href="index.html" target="_blank">عرض الموقع</a><button class="adm-b" id="aOut">خروج</button></div><div id="aLogin"><div class="adm-dlg"><h3>دخول لوحة التحكم</h3><div id="aM" style="color:#f87171"></div><label>الإيميل</label><input id="aE" type="email" dir="ltr"><label>كلمة السر</label><input id="aP" type="password" dir="ltr"><div class="adm-act"><button class="adm-b p" id="aGo">دخول</button></div></div></div>`);
+  $('#aSave').onclick=save;$('#aOut').onclick=async()=>{if(!dirty||confirm('فيه تغييرات مش محفوظة. خروج؟')){dirty=0;await sb.auth.signOut();location.reload()}};
+  if(!sb){$('#aM').textContent='ضيف الـ anon key في SUPABASE_ANON_KEY داخل الملف الأول.';return}
+  $('#aGo').onclick=async()=>{const{error}=await sb.auth.signInWithPassword({email:$('#aE').value,password:$('#aP').value});error?$('#aM').textContent='بيانات الدخول غلط':enter()};
+  if((await sb.auth.getSession()).data.session)enter()});
+})();
+</script>
+</body>
